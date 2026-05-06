@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add("js")</script>
+<meta charset="UTF-8">
+<!-- SEO STAGE: hidden from indexing until promotion. Per the Atika
+     pattern. Flip to noindex,index when launching. -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in · Saunasto</title>
+<meta name="description" content="Sign in to vote in the next Saunasto 100 quarterly edition.">
+
+<link rel="canonical" href="https://saunasto.com/login/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://saunasto.com/login/">
+<meta property="og:title" content="Sign in · Saunasto">
+<meta property="og:description" content="Sign in to vote in the next Saunasto 100 quarterly edition.">
+<meta property="og:image" content="https://saunasto.com/assets/og-default.png">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@saunasto">
+
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+
+
+
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="/" class="logo">Saunasto</a>
+    <nav>
+      <a href="/the-100/">The 100</a>
+      <a href="/vote/">Vote</a>
+      <a href="/#countries">Countries</a>
+      <a href="/#about">About</a>
+    </nav>
+    <a href="/login/" class="open-app">Sign in →</a>
+  </div>
+</header>
+
+
+<div class="breadcrumb">
+  <a href="/">Saunasto</a><span class="sep">/</span>
+  <span>Sign in</span>
+</div>
+
+<section class="hero" style="grid-template-columns: 1fr;">
+  <div style="max-width: 680px; margin: 0 auto;">
+    <div class="hero-meta" style="justify-content:flex-start;">
+      <span>Authenticate to vote</span>
+      <span>10 picks per quarter</span>
+    </div>
+    <h1>Sign in to <em>Saunasto</em>.</h1>
+    <p class="lead">Saunasto members vote for ten venues per quarter. Your picks feed the Wilson-score component of the next edition's ranking. No passwords required.</p>
+
+    <div id="auth-card" style="margin-top:36px;background:var(--paper-warm);padding:32px;border:1px solid var(--rule);">
+      <div id="auth-state-loading" style="font-family:'JetBrains Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);">Loading…</div>
+
+      <div id="auth-anon" style="display:none;">
+        <button class="open-app" id="btn-google" style="display:block;width:100%;padding:14px;font-family:'Public Sans',sans-serif;font-size:14px;letter-spacing:0;text-transform:none;border:0;cursor:pointer;">Continue with Google</button>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin:24px 0 14px;text-align:center;">— or —</div>
+        <label style="display:block;font-family:'JetBrains Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:8px;">Email magic link</label>
+        <input type="email" id="email-input" placeholder="you@domain.com" required style="display:block;width:100%;padding:12px 14px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);font-family:'Public Sans',sans-serif;font-size:14px;margin-bottom:12px;">
+        <button id="btn-email" style="background:var(--ink);color:var(--paper);padding:14px;font-family:'Public Sans',sans-serif;font-size:14px;border:0;cursor:pointer;display:block;width:100%;">Send sign-in link</button>
+        <p id="email-status" style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin-top:12px;min-height:1.4em;"></p>
+        <div style="font-family:'Public Sans',sans-serif;font-size:13px;color:var(--muted);margin-top:24px;line-height:1.5;">
+          We'll email you a one-time link. No password to remember. Click the link to sign in.
+        </div>
+      </div>
+
+      <div id="auth-signedin" style="display:none;">
+        <div style="font-family:'Fraunces',Georgia,serif;font-size:22px;margin-bottom:8px;">You're in.</div>
+        <div id="user-email" style="font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--muted);margin-bottom:24px;"></div>
+        <a href="/vote/" class="open-app" style="display:inline-block;text-decoration:none;">Go to voting →</a>
+        <button id="btn-signout" style="background:transparent;color:var(--muted);padding:10px 0;margin-left:18px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;border:0;cursor:pointer;">Sign out</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="module">
+  import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+  const SUPABASE_URL  = 'https://wzpggmytlbhgzxyjvidr.supabase.co';
+  const SUPABASE_KEY  = 'sb_publishable__2urAIi6bnrK4MrmfXR_nA_QBzN-L4d';
+  const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+  const loadingEl = document.getElementById('auth-state-loading');
+  const anonEl    = document.getElementById('auth-anon');
+  const inEl      = document.getElementById('auth-signedin');
+  const emailEl   = document.getElementById('user-email');
+  const statusEl  = document.getElementById('email-status');
+
+  async function refreshState() {
+    const { data: { user } } = await sb.auth.getUser();
+    loadingEl.style.display = 'none';
+    if (user) {
+      anonEl.style.display = 'none';
+      inEl.style.display   = 'block';
+      emailEl.textContent  = user.email || user.id;
+    } else {
+      anonEl.style.display = 'block';
+      inEl.style.display   = 'none';
+    }
+  }
+  refreshState();
+  sb.auth.onAuthStateChange(() => refreshState());
+
+  document.getElementById('btn-google').addEventListener('click', async () => {
+    statusEl.textContent = 'Redirecting to Google…';
+    await sb.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo: window.location.origin + '/login/' }
+    });
+  });
+
+  document.getElementById('btn-email').addEventListener('click', async () => {
+    const email = document.getElementById('email-input').value.trim();
+    if (!email) { statusEl.textContent = 'Enter an email first.'; return; }
+    statusEl.textContent = 'Sending…';
+    const { error } = await sb.auth.signInWithOtp({
+      email,
+      options: { emailRedirectTo: window.location.origin + '/login/' }
+    });
+    statusEl.textContent = error
+      ? 'Error: ' + error.message
+      : 'Link sent. Check your inbox.';
+  });
+
+  document.getElementById('btn-signout').addEventListener('click', async () => {
+    await sb.auth.signOut();
+  });
+</script>
+
+<footer>
+  <div>Saunasto · The world's saunas, indexed.</div>
+  <nav>
+    <a href="/the-100/">The 100</a>
+    <a href="/#countries">Countries</a>
+    <a href="/#about">About</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+  </nav>
+</footer>
+
+</body>
+</html>

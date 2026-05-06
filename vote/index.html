@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add("js")</script>
+<meta charset="UTF-8">
+<!-- SEO STAGE: hidden from indexing until promotion. Per the Atika
+     pattern. Flip to noindex,index when launching. -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vote · Saunasto 100 · 2026-Q2</title>
+<meta name="description" content="Saunasto members vote for their 10 favorite saunas in 2026-Q2. Picks feed the next quarterly Saunasto 100 ranking.">
+
+<link rel="canonical" href="https://saunasto.com/vote/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://saunasto.com/vote/">
+<meta property="og:title" content="Vote · Saunasto 100 · 2026-Q2">
+<meta property="og:description" content="Saunasto members vote for their 10 favorite saunas in 2026-Q2. Picks feed the next quarterly Saunasto 100 ranking.">
+<meta property="og:image" content="https://saunasto.com/assets/og-default.png">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@saunasto">
+
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+
+
+
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="/" class="logo">Saunasto</a>
+    <nav>
+      <a href="/the-100/">The 100</a>
+      <a href="/vote/">Vote</a>
+      <a href="/#countries">Countries</a>
+      <a href="/#about">About</a>
+    </nav>
+    <a href="/login/" class="open-app">Sign in →</a>
+  </div>
+</header>
+
+
+<div class="breadcrumb">
+  <a href="/">Saunasto</a><span class="sep">/</span>
+  <a href="/the-100/">The 100</a><span class="sep">/</span>
+  <span>Vote · 2026-Q2</span>
+</div>
+
+<section class="hero">
+  <div>
+    <div class="hero-meta">
+      <span>Quarterly voting</span>
+      <span>2026-Q2</span>
+      <span id="vote-status">Loading…</span>
+    </div>
+    <h1>Pick <em>10 saunas</em>.</h1>
+    <p class="lead">Your ten picks feed the Wilson-score component of the next Saunasto 100 edition. Pick the ten venues you'd actually send a friend to, regardless of where they are or how famous they are. You can change your picks any time before the quarter closes.</p>
+    <div id="auth-banner" style="display:none;margin-top:24px;padding:18px;background:var(--paper-warm);border:1px solid var(--rule);">
+      <strong>Sign in to vote.</strong> Voting is gated to authenticated members. <a href="/login/" style="color:var(--accent);">Create an account →</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num"><em id="my-vote-count">—</em></div><div class="stat-label">Your picks (of 10)</div></div>
+    <div class="stat"><div class="stat-num">141</div><div class="stat-label">Eligible venues</div></div>
+    <div class="stat"><div class="stat-num" id="vote-deadline">Sep 30</div><div class="stat-label">Voting closes</div></div>
+    <div class="stat"><div class="stat-num">Q3 ‘26</div><div class="stat-label">Edition publishes</div></div>
+  </div>
+</section>
+
+<section class="section" id="vote-grid-section">
+  <div class="section-eyebrow">Vote</div>
+  <h2>Click a venue to pick or unpick.</h2>
+  <p class="section-intro">All Saunasto Curator's Picks are eligible. Cast up to 10 votes; you can withdraw and re-cast freely until the quarter closes.</p>
+
+  <div id="vote-grid" class="vote-grid">
+    
+    <button class="vote-card" data-venue-id="5a5703b8-7f83-44df-a281-b04c74713b41" data-venue-name="Termas Cacheuta" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/5a5703b8-7f83-44df-a281-b04c74713b41.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇦🇷 Argentina · Cacheuta</div>
+        <h3 class="vote-card-name">Termas Cacheuta</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8ec7ad18-f9de-40e9-84c5-533fd3a6002e" data-venue-name="Avita Therme" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/8ec7ad18-f9de-40e9-84c5-533fd3a6002e.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇦🇹 Austria · Bad Tatzmannsdorf</div>
+        <h3 class="vote-card-name">Avita Therme</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="f2b94574-94b6-42fa-9c3a-d9a09d38f721" data-venue-name="Hotel Jungbrunn" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/f2b94574-94b6-42fa-9c3a-d9a09d38f721.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇦🇹 Austria · Tannheim</div>
+        <h3 class="vote-card-name">Hotel Jungbrunn</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b96a76d1-4598-4466-a236-04c925d49eb9" data-venue-name="Silvretta Therme Ischgl" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/b96a76d1-4598-4466-a236-04c925d49eb9.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇦🇹 Austria · Ischgl</div>
+        <h3 class="vote-card-name">Silvretta Therme Ischgl</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="57654f4e-fe9d-4a04-bfb7-52087c47d6c8" data-venue-name="Spa Therme Blumau Betriebs GmbH" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/57654f4e-fe9d-4a04-bfb7-52087c47d6c8.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇦🇹 Austria · Bad Blumau</div>
+        <h3 class="vote-card-name">Spa Therme Blumau Betriebs GmbH</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="0b8e7514-4b95-4496-bfd3-0687233d8490" data-venue-name="Therme Loipersdorf" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/0b8e7514-4b95-4496-bfd3-0687233d8490.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇦🇹 Austria · Bad Loipersdorf</div>
+        <h3 class="vote-card-name">Therme Loipersdorf</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="03720c85-334d-477e-af94-bafb953533ac" data-venue-name="Therme Wien" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/03720c85-334d-477e-af94-bafb953533ac.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇦🇹 Austria · Wien</div>
+        <h3 class="vote-card-name">Therme Wien</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="435fe66a-297b-4c87-ace9-a7c913aac2a6" data-venue-name="Banff Upper Hot Springs" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/435fe66a-297b-4c87-ace9-a7c913aac2a6.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇦 Canada · Banff</div>
+        <h3 class="vote-card-name">Banff Upper Hot Springs</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="78a0cd3d-d01e-46ac-885b-4adf81937a90" data-venue-name="Banya No. 2 Richmond Hill" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/78a0cd3d-d01e-46ac-885b-4adf81937a90.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇦 Canada · Richmond Hill</div>
+        <h3 class="vote-card-name">Banya No. 2 Richmond Hill</h3>
+        <div class="vote-card-chips">bathhouse · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="1dbb827d-f54f-4b58-bcfb-4b6088968589" data-venue-name="HAVN Saunas" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/1dbb827d-f54f-4b58-bcfb-4b6088968589.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇦 Canada · Victoria</div>
+        <h3 class="vote-card-name">HAVN Saunas</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="50abf155-33c5-40b3-b47e-d2d887f1a8c5" data-venue-name="Liard River Hot Springs" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/50abf155-33c5-40b3-b47e-d2d887f1a8c5.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇦 Canada · Liard River</div>
+        <h3 class="vote-card-name">Liard River Hot Springs</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="3d1ef52e-d6a3-4406-9581-545a0503cfd4" data-venue-name="Nimmo Bay Floating Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/3d1ef52e-d6a3-4406-9581-545a0503cfd4.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇦 Canada · Nimmo Bay</div>
+        <h3 class="vote-card-name">Nimmo Bay Floating Sauna</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="1ff1f6b4-c04a-4145-ab5a-07ce728c0e27" data-venue-name="South-Western Bathhouse and Tea Room" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/1ff1f6b4-c04a-4145-ab5a-07ce728c0e27.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇦 Canada · Mississauga</div>
+        <h3 class="vote-card-name">South-Western Bathhouse and Tea Room</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a1f5e1a0-5555-4005-8005-000000000005" data-venue-name="Bogn Engiadina Scuol" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇭 Switzerland · Scuol</div>
+        <h3 class="vote-card-name">Bogn Engiadina Scuol</h3>
+        <div class="vote-card-chips">thermal bath · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="446d3fc8-6c3a-4550-839a-cb50b323a3ed" data-venue-name="Leukerbad Therme" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇭 Switzerland · Leukerbad</div>
+        <h3 class="vote-card-name">Leukerbad Therme</h3>
+        <div class="vote-card-chips">thermal bath · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="4018f0fa-9a88-4ad4-a49e-dc3a02a1bf7f" data-venue-name="Sauna Lorrainebad" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇭 Switzerland</div>
+        <h3 class="vote-card-name">Sauna Lorrainebad</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="44613aa3-255f-4f6b-842d-39e179fbe0b5" data-venue-name="Tamina Therme" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇭 Switzerland</div>
+        <h3 class="vote-card-name">Tamina Therme</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="afdd9f99-81a8-4a42-84b9-9334c4ee7d67" data-venue-name="Therme Vals" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇭 Switzerland · Vals</div>
+        <h3 class="vote-card-name">Therme Vals</h3>
+        <div class="vote-card-chips">thermal bath · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="6dd0f775-c6d4-4d95-9763-b12dca24b7cf" data-venue-name="Termas Geométricas" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/6dd0f775-c6d4-4d95-9763-b12dca24b7cf.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇱 Chile · Coñaripe</div>
+        <h3 class="vote-card-name">Termas Geométricas</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b33d970f-8aac-420c-b3c4-5a8dfd108423" data-venue-name="Termales Santa Rosa de Cabal" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/b33d970f-8aac-420c-b3c4-5a8dfd108423.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇴 Colombia · Santa Rosa de Cabal</div>
+        <h3 class="vote-card-name">Termales Santa Rosa de Cabal</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="90afd41c-4683-49f9-84a4-a9f7959043f2" data-venue-name="Tabacón Hot Springs" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/90afd41c-4683-49f9-84a4-a9f7959043f2.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇨🇷 Costa Rica · La Fortuna</div>
+        <h3 class="vote-card-name">Tabacón Hot Springs</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8b90593c-e2dc-467c-b3bc-328185aff412" data-venue-name="Adelindis Therme" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Bad Buchau</div>
+        <h3 class="vote-card-name">Adelindis Therme</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b54de4aa-abba-4325-9263-2ba39ce32760" data-venue-name="Aqualon Therme" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://www.aqualon.de/templates/yootheme/cache/4d/aqualon-therme-innenbecken-1-4d6738fd.jpeg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Bad Säckingen</div>
+        <h3 class="vote-card-name">Aqualon Therme</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ac28d76c-63c5-4fef-bb3e-5ac7986da3a5" data-venue-name="Bodensee-Therme Konstanz" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://www.therme-konstanz.de/sites/therme-konstanz.de/files/styles/social_media/public/2023-01/BTK_Sauna_Image_2020_%2812%29_0.jpg?h=7c7442a8&amp;itok=bCEYlNur')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Konstanz</div>
+        <h3 class="vote-card-name">Bodensee-Therme Konstanz</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a29d2883-6fc6-4a17-b921-92d781fa5530" data-venue-name="Caracalla Therme" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/a29d2883-6fc6-4a17-b921-92d781fa5530.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Baden-Baden</div>
+        <h3 class="vote-card-name">Caracalla Therme</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8b39b976-21f9-4536-9ddb-dae388f01d24" data-venue-name="Carolus Thermen Bad Aachen" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Aachen</div>
+        <h3 class="vote-card-name">Carolus Thermen Bad Aachen</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="77104d19-6c02-41b2-9adf-1e5d836d87aa" data-venue-name="Chiemgau Thermen" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Bad Endorf</div>
+        <h3 class="vote-card-name">Chiemgau Thermen</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="02d2ea5c-b3fb-4ee6-b6e2-8f94eec9d3f0" data-venue-name="Claudius-Therme" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Köln</div>
+        <h3 class="vote-card-name">Claudius-Therme</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ea322a80-aeae-40ac-99c2-a9743d7973f6" data-venue-name="Friedrichsbad" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/ea322a80-aeae-40ac-99c2-a9743d7973f6.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Baden-Baden</div>
+        <h3 class="vote-card-name">Friedrichsbad</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="9947ce8c-3aa4-48c4-b3ed-34a06c6df7c2" data-venue-name="Liquidrom" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/9947ce8c-3aa4-48c4-b3ed-34a06c6df7c2.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Berlin</div>
+        <h3 class="vote-card-name">Liquidrom</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="c0e3c6c7-eb9e-400e-b893-ab189151feb4" data-venue-name="Mediterana GmbH &amp; Co.KG" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/c0e3c6c7-eb9e-400e-b893-ab189151feb4.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Bergisch Gladbach</div>
+        <h3 class="vote-card-name">Mediterana GmbH & Co.KG</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="0e02635b-e7e5-4263-a2ab-65508d888545" data-venue-name="Therme Erding" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/0e02635b-e7e5-4263-a2ab-65508d888545.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Erding</div>
+        <h3 class="vote-card-name">Therme Erding</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="31bb8843-1d4a-4ff7-8d76-34a06eb6bfb5" data-venue-name="Vabali Spa Berlin" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/31bb8843-1d4a-4ff7-8d76-34a06eb6bfb5.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Berlin</div>
+        <h3 class="vote-card-name">Vabali Spa Berlin</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b5294b3c-a81c-46ac-9227-c580f1aebb6f" data-venue-name="Vabali Spa Düsseldorf" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://www.vabali.de/wp-content/uploads/2025/09/vabali-neutrales-Logo-Website.png')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇩🇪 Germany · Düsseldorf</div>
+        <h3 class="vote-card-name">Vabali Spa Düsseldorf</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="351982e6-f3bb-4ef2-8d93-6e2929b8b959" data-venue-name="Jantsu talu suitsusaun ja kilesaun" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://suitsusauna.ee/wp-content/uploads/2024/06/cropped-IMG_8736.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇪🇪 Estonia</div>
+        <h3 class="vote-card-name">Jantsu talu suitsusaun ja kilesaun</h3>
+        <div class="vote-card-chips">sauna · smoke</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="3bf67abc-eda0-4b2a-a8bf-ce58ade88790" data-venue-name="Kalma Saun" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/3bf67abc-eda0-4b2a-a8bf-ce58ade88790.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇪🇪 Estonia · Tallinn</div>
+        <h3 class="vote-card-name">Kalma Saun</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="46aa3736-3f03-410c-857b-159f710ce219" data-venue-name="Pokumaa suitsusaun" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://www.pokumaa.ee/wp-content/uploads/2021/06/logo45-punane.png')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇪🇪 Estonia</div>
+        <h3 class="vote-card-name">Pokumaa suitsusaun</h3>
+        <div class="vote-card-chips">sauna · smoke</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="2c625cd5-9a65-43c7-b5ed-6105fcd16049" data-venue-name="Rangi Saun" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/2c625cd5-9a65-43c7-b5ed-6105fcd16049.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇪🇪 Estonia · Tallinn</div>
+        <h3 class="vote-card-name">Rangi Saun</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="93fad210-2de0-4a89-8741-285dc031ce68" data-venue-name="Raua saun" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/93fad210-2de0-4a89-8741-285dc031ce68.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇪🇪 Estonia · Tallinn</div>
+        <h3 class="vote-card-name">Raua saun</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="0eba0452-7959-46e0-b01f-86b545fe1cb6" data-venue-name="Allas Sea Pool" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/0eba0452-7959-46e0-b01f-86b545fe1cb6.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Allas Sea Pool</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="9b562db9-fd95-44eb-a272-04b93e53ff4f" data-venue-name="Häkä Löylyt" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/9b562db9-fd95-44eb-a272-04b93e53ff4f.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Nivala</div>
+        <h3 class="vote-card-name">Häkä Löylyt</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="2367239b-5ed3-480d-bf43-d06ae5efaf38" data-venue-name="Kaupinoja Sauna" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Tampere</div>
+        <h3 class="vote-card-name">Kaupinoja Sauna</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="bd7cda71-3877-40c5-b55f-e9b446c0be97" data-venue-name="Kotiharjun sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/bd7cda71-3877-40c5-b55f-e9b446c0be97.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Kotiharjun sauna</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d156943b-9a76-4794-9e6f-5d9d63b62fe2" data-venue-name="Kovien löylyjen sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/d156943b-9a76-4794-9e6f-5d9d63b62fe2.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Kovien löylyjen sauna</h3>
+        <div class="vote-card-chips">sauna · smoke</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d245f798-ac09-43b6-81f6-f830351f424a" data-venue-name="Kulttuurisauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('http://commons.wikimedia.org/wiki/Special:FilePath/Kulttuurisauna%20Helsinki%202021.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Kulttuurisauna</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="9b10fb2f-85f2-447e-9aa7-441e210e1bad" data-venue-name="Löyly" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/9b10fb2f-85f2-447e-9aa7-441e210e1bad.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Löyly</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="55452a4c-3ba1-4ea2-83b1-5f28a576b30e" data-venue-name="Löyly Helsinki" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/55452a4c-3ba1-4ea2-83b1-5f28a576b30e.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Löyly Helsinki</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d3092065-a5f7-4352-8328-e558c45cb347" data-venue-name="Löylykontti Kivenlahti" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/d3092065-a5f7-4352-8328-e558c45cb347.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Espoo</div>
+        <h3 class="vote-card-name">Löylykontti Kivenlahti</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ab7f0079-592a-4b2f-aea6-abc7a241b2f5" data-venue-name="Löylykontti Laaksolahti" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/ab7f0079-592a-4b2f-aea6-abc7a241b2f5.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland</div>
+        <h3 class="vote-card-name">Löylykontti Laaksolahti</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="6cc4f029-31c8-4c69-94ca-e0c82644e696" data-venue-name="Löylykontti Matinkylä" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/6cc4f029-31c8-4c69-94ca-e0c82644e696.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Espoo</div>
+        <h3 class="vote-card-name">Löylykontti Matinkylä</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ef1003c2-87af-4f05-8b20-6911a2959ec5" data-venue-name="Löylykontti Sörnäinen" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/ef1003c2-87af-4f05-8b20-6911a2959ec5.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Löylykontti Sörnäinen</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="75c02738-dca6-4965-bcef-6a3214a50aea" data-venue-name="Löylymestari" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/75c02738-dca6-4965-bcef-6a3214a50aea.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Rauma</div>
+        <h3 class="vote-card-name">Löylymestari</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="f528a74b-c628-4e38-a206-b6e54f571bd3" data-venue-name="Löylymestarit sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/f528a74b-c628-4e38-a206-b6e54f571bd3.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Tampere</div>
+        <h3 class="vote-card-name">Löylymestarit sauna</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="dfe0ff0d-84f2-4ac8-91b1-d6df7521692c" data-venue-name="Rajaportin sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/dfe0ff0d-84f2-4ac8-91b1-d6df7521692c.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Tampere</div>
+        <h3 class="vote-card-name">Rajaportin sauna</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d99a144c-ad1f-49a6-a157-189c4410cdb6" data-venue-name="Sauna Hermanni – Hakaniemenranta" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/d99a144c-ad1f-49a6-a157-189c4410cdb6.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Sauna Hermanni – Hakaniemenranta</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="57d5cefb-f81c-4876-a0e4-5b5febf182e1" data-venue-name="Saunalautta M/S Löyly" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/57d5cefb-f81c-4876-a0e4-5b5febf182e1.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Jyväskylä</div>
+        <h3 class="vote-card-name">Saunalautta M/S Löyly</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="804cc017-0466-4bd5-9dd8-8feced9fff72" data-venue-name="Saunaravintola Kuuma" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/804cc017-0466-4bd5-9dd8-8feced9fff72.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Tampere</div>
+        <h3 class="vote-card-name">Saunaravintola Kuuma</h3>
+        <div class="vote-card-chips">sauna · smoke</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8730eb41-4a12-4225-9a4a-3816af34aa03" data-venue-name="Seven Star Smoke Sauna at Isokenkäisten Klubi" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://www.ikk.fi/wp-content/uploads/2020/11/ikk-vasta.jpeg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Kuusamo</div>
+        <h3 class="vote-card-name">Seven Star Smoke Sauna at Isokenkäisten Klubi</h3>
+        <div class="vote-card-chips">sauna · smoke</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a1f5e1a0-1111-4001-8001-000000000001" data-venue-name="Yrjönkadun Uimahalli" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland · Helsinki</div>
+        <h3 class="vote-card-name">Yrjönkadun Uimahalli</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="29a25573-427e-47e9-9de8-49a5073b4e36" data-venue-name="uusi sauna SAFA" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇫🇮 Finland</div>
+        <h3 class="vote-card-name">uusi sauna SAFA</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="5a9cfc47-22b7-4328-9e14-3db49e42d5a0" data-venue-name="Wildwater Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/5a9cfc47-22b7-4328-9e14-3db49e42d5a0.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇬🇧 United Kingdom · St Davids</div>
+        <h3 class="vote-card-name">Wildwater Sauna</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="9e349cc7-a31e-4599-bacf-d307c4996c3e" data-venue-name="Banya Athens Thissio" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/9e349cc7-a31e-4599-bacf-d307c4996c3e.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇬🇷 Greece · Athens</div>
+        <h3 class="vote-card-name">Banya Athens Thissio</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="2779b9e6-93fa-4fcf-9665-19aa0cd3e7b8" data-venue-name="Egerszalok Salt Hill" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/2779b9e6-93fa-4fcf-9665-19aa0cd3e7b8.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇭🇺 Hungary · Egerszalok</div>
+        <h3 class="vote-card-name">Egerszalok Salt Hill</h3>
+        <div class="vote-card-chips">thermal bath · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="f24f9b56-e2df-44f6-9970-8952816760a1" data-venue-name="Gellért Thermal Bath" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/f24f9b56-e2df-44f6-9970-8952816760a1.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇭🇺 Hungary · Budapest</div>
+        <h3 class="vote-card-name">Gellért Thermal Bath</h3>
+        <div class="vote-card-chips">thermal bath · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8cf40671-45c1-4bf1-92d9-0cc43d2c95a0" data-venue-name="Király fürdő" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/8cf40671-45c1-4bf1-92d9-0cc43d2c95a0.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇭🇺 Hungary · Budapest</div>
+        <h3 class="vote-card-name">Király fürdő</h3>
+        <div class="vote-card-chips">hot spring · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="853736e9-1258-4daf-9628-c4ff4bebb2c9" data-venue-name="Lake Hévíz" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/853736e9-1258-4daf-9628-c4ff4bebb2c9.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇭🇺 Hungary · Hévíz</div>
+        <h3 class="vote-card-name">Lake Hévíz</h3>
+        <div class="vote-card-chips">thermal bath · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d3d8a722-f8e7-467a-a306-a00549488f6c" data-venue-name="Rudas Ivócsarnok" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/d3d8a722-f8e7-467a-a306-a00549488f6c.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇭🇺 Hungary</div>
+        <h3 class="vote-card-name">Rudas Ivócsarnok</h3>
+        <div class="vote-card-chips">hot spring · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="3024b721-6092-4f6a-9ab7-85086b3d91d4" data-venue-name="Sauna Bivak" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/3024b721-6092-4f6a-9ab7-85086b3d91d4.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇭🇺 Hungary · Nagymaros</div>
+        <h3 class="vote-card-name">Sauna Bivak</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="6a7265f2-106c-488f-9b88-d765359f7a4a" data-venue-name="Széchenyi Thermal Bath" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/6a7265f2-106c-488f-9b88-d765359f7a4a.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇭🇺 Hungary · Budapest</div>
+        <h3 class="vote-card-name">Széchenyi Thermal Bath</h3>
+        <div class="vote-card-chips">thermal bath · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a7fbe0dd-0002-440a-99e8-b6a5debd083d" data-venue-name="Banjar Hot Springs" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/a7fbe0dd-0002-440a-99e8-b6a5debd083d.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇩 Indonesia · Banjar</div>
+        <h3 class="vote-card-name">Banjar Hot Springs</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="905975f5-4de0-4c3d-999f-f0be740d2a06" data-venue-name="Blue Lagoon" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/905975f5-4de0-4c3d-999f-f0be740d2a06.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇸 Iceland</div>
+        <h3 class="vote-card-name">Blue Lagoon</h3>
+        <div class="vote-card-chips">hot spring · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="86e58ab6-3531-4284-b4ef-b11e01499775" data-venue-name="Gamla Laugin - Secret Lagoon" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/86e58ab6-3531-4284-b4ef-b11e01499775.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇸 Iceland · Fludir</div>
+        <h3 class="vote-card-name">Gamla Laugin - Secret Lagoon</h3>
+        <div class="vote-card-chips">hot spring · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="c8209fc4-b174-4a61-8552-c92f6021e18f" data-venue-name="Landmannalaugar" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/c8209fc4-b174-4a61-8552-c92f6021e18f.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇸 Iceland · Highlands</div>
+        <h3 class="vote-card-name">Landmannalaugar</h3>
+        <div class="vote-card-chips">hot spring · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="1ee27a72-6114-4246-9d29-726b3f88eb76" data-venue-name="Myvatn Nature Baths" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/1ee27a72-6114-4246-9d29-726b3f88eb76.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇸 Iceland · Myvatn</div>
+        <h3 class="vote-card-name">Myvatn Nature Baths</h3>
+        <div class="vote-card-chips">hot spring · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b31c11e0-5269-4607-a051-bd99c04cc966" data-venue-name="Sky Lagoon" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/b31c11e0-5269-4607-a051-bd99c04cc966.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇸 Iceland · Reykjavik</div>
+        <h3 class="vote-card-name">Sky Lagoon</h3>
+        <div class="vote-card-chips">hot spring · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a888fbcc-d3f3-4a4d-ae8c-9beecdf36264" data-venue-name="Cascate del Mulino" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/a888fbcc-d3f3-4a4d-ae8c-9beecdf36264.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇹 Italy · Saturnia</div>
+        <h3 class="vote-card-name">Cascate del Mulino</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="1f5d36ab-0705-4dc7-82cd-2b2048cec557" data-venue-name="Terme Libere di Petriolo" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/1f5d36ab-0705-4dc7-82cd-2b2048cec557.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇹 Italy · Monticiano</div>
+        <h3 class="vote-card-name">Terme Libere di Petriolo</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a4024db2-0a5a-475f-9ae6-1833d8d81268" data-venue-name="Thermal Spring of Bulicame" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/a4024db2-0a5a-475f-9ae6-1833d8d81268.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇮🇹 Italy · Viterbo</div>
+        <h3 class="vote-card-name">Thermal Spring of Bulicame</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="fd84f194-8904-4ffe-bcf4-44d406bf23df" data-venue-name="Beppu Onsen" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/fd84f194-8904-4ffe-bcf4-44d406bf23df.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Beppu</div>
+        <h3 class="vote-card-name">Beppu Onsen</h3>
+        <div class="vote-card-chips">onsen · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a1f5e1a0-3333-4003-8003-000000000003" data-venue-name="Dogo Onsen" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Matsuyama</div>
+        <h3 class="vote-card-name">Dogo Onsen</h3>
+        <div class="vote-card-chips">onsen · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="4f73dda5-19af-4931-b46d-74539cc7e057" data-venue-name="From P Hakuba" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/4f73dda5-19af-4931-b46d-74539cc7e057.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Hakuba-mura</div>
+        <h3 class="vote-card-name">From P Hakuba</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="880325f2-1384-4ffb-b89a-62ab6b7d228d" data-venue-name="Ginzan Onsen, Yamagata" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan</div>
+        <h3 class="vote-card-name">Ginzan Onsen, Yamagata</h3>
+        <div class="vote-card-chips">onsen · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8eb512ff-619f-4335-a247-411fe6ff8d2c" data-venue-name="Hakone Onsen" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/8eb512ff-619f-4335-a247-411fe6ff8d2c.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Hakone</div>
+        <h3 class="vote-card-name">Hakone Onsen</h3>
+        <div class="vote-card-chips">onsen · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b3a17fc2-7d51-46c7-bbc7-f4b21d5e9322" data-venue-name="Hakuba Zekkei Sauna Rooftop" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/b3a17fc2-7d51-46c7-bbc7-f4b21d5e9322.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Hakuba-mura</div>
+        <h3 class="vote-card-name">Hakuba Zekkei Sauna Rooftop</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ea9dbce5-9cc6-48cc-aeec-ed1a85ddf0a4" data-venue-name="JIKON SAUNA TOKYO" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/ea9dbce5-9cc6-48cc-aeec-ed1a85ddf0a4.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · 青梅市</div>
+        <h3 class="vote-card-name">JIKON SAUNA TOKYO</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a1f5e1a0-2222-4002-8002-000000000002" data-venue-name="Kurokawa Onsen" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Minamioguni</div>
+        <h3 class="vote-card-name">Kurokawa Onsen</h3>
+        <div class="vote-card-chips">onsen · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="88c9755a-655a-4d58-8161-f7f6dc2c87f8" data-venue-name="Kusatsu Onsen" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/88c9755a-655a-4d58-8161-f7f6dc2c87f8.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Kusatsu</div>
+        <h3 class="vote-card-name">Kusatsu Onsen</h3>
+        <div class="vote-card-chips">onsen · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="358a7ca2-2c4d-4a6f-8609-1735bde5f6c7" data-venue-name="Noboribetsu Onsen" disabled>
+      <div class="vote-card-cover" style="background-image:url('http://commons.wikimedia.org/wiki/Special:FilePath/Noboribetsu%20hot%20spring%20resort01.JPG')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Noboribetsu</div>
+        <h3 class="vote-card-name">Noboribetsu Onsen</h3>
+        <div class="vote-card-chips">onsen · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="c4e194f7-3196-4810-951e-7fb950b124f8" data-venue-name="SAUNA TOKYO AKASAKA" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/c4e194f7-3196-4810-951e-7fb950b124f8.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan</div>
+        <h3 class="vote-card-name">SAUNA TOKYO AKASAKA</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="e07d0ae2-645c-4079-b060-52792683461c" data-venue-name="SAZAE" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/e07d0ae2-645c-4079-b060-52792683461c.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Naoshima</div>
+        <h3 class="vote-card-name">SAZAE</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ed25f7fc-4f62-4698-bd7a-0d6eac2dc7db" data-venue-name="TOTOPA" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/ed25f7fc-4f62-4698-bd7a-0d6eac2dc7db.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan</div>
+        <h3 class="vote-card-name">TOTOPA</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a1f5e1a0-6666-4006-8006-000000000006" data-venue-name="Yufuin Onsen" disabled>
+      <div class="vote-card-cover" ></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇯🇵 Japan · Yufu</div>
+        <h3 class="vote-card-name">Yufuin Onsen</h3>
+        <div class="vote-card-chips">onsen · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="14bbe356-3638-4a0d-a6af-c2553d05597f" data-venue-name="Junggok-dong Siloam Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/14bbe356-3638-4a0d-a6af-c2553d05597f.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇰🇷 South Korea · Seoul</div>
+        <h3 class="vote-card-name">Junggok-dong Siloam Sauna</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="73dc1ac7-5319-45f4-ad06-1215ad23a580" data-venue-name="Amber Sauna Palanga" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/73dc1ac7-5319-45f4-ad06-1215ad23a580.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇹 Lithuania · Palanga</div>
+        <h3 class="vote-card-name">Amber Sauna Palanga</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="0f77466c-454e-4d36-a1fe-1d5d0a24a956" data-venue-name="Druskininkai Sauna Complex" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/0f77466c-454e-4d36-a1fe-1d5d0a24a956.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇹 Lithuania · Druskininkai</div>
+        <h3 class="vote-card-name">Druskininkai Sauna Complex</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="92aa213f-66ff-4892-8034-02da36730839" data-venue-name="Perkunijos Pirtis" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/92aa213f-66ff-4892-8034-02da36730839.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇹 Lithuania · Kaunas</div>
+        <h3 class="vote-card-name">Perkunijos Pirtis</h3>
+        <div class="vote-card-chips">sauna · smoke</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d9dda545-2468-4b40-aba5-f6218e50e20e" data-venue-name="Pilaites Maluno Pirtys" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/d9dda545-2468-4b40-aba5-f6218e50e20e.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇹 Lithuania · Vilnius</div>
+        <h3 class="vote-card-name">Pilaites Maluno Pirtys</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="4d5ddb99-9d4e-4b89-b950-efcb0c4519a5" data-venue-name="Meza SPA" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/4d5ddb99-9d4e-4b89-b950-efcb0c4519a5.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇻 Latvia · Jurkalne</div>
+        <h3 class="vote-card-name">Meza SPA</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="e099beac-be34-4156-9a43-acd737a6dbf8" data-venue-name="Pirts Rozeni" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/e099beac-be34-4156-9a43-acd737a6dbf8.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇻 Latvia · Skulte</div>
+        <h3 class="vote-card-name">Pirts Rozeni</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="0e31fd1b-7393-4977-a2fd-dffb8ceef190" data-venue-name="Pirts Skola Lielzemenes" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/0e31fd1b-7393-4977-a2fd-dffb8ceef190.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇻 Latvia · Vecumnieki</div>
+        <h3 class="vote-card-name">Pirts Skola Lielzemenes</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="0f0dc630-9a9e-4d1e-84ae-417c04d430a9" data-venue-name="Riga Floating Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/0f0dc630-9a9e-4d1e-84ae-417c04d430a9.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇻 Latvia · Riga</div>
+        <h3 class="vote-card-name">Riga Floating Sauna</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="171d3b41-6adc-48c5-be0d-6f78a8209c11" data-venue-name="Ziedlejas Wellness Resort" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/171d3b41-6adc-48c5-be0d-6f78a8209c11.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇱🇻 Latvia · Krimulda</div>
+        <h3 class="vote-card-name">Ziedlejas Wellness Resort</h3>
+        <div class="vote-card-chips">sauna · smoke</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="7427ed7c-f448-4a4d-8155-178314646033" data-venue-name="Grutas de Tolantongo" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/7427ed7c-f448-4a4d-8155-178314646033.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇲🇽 Mexico · Cardonal</div>
+        <h3 class="vote-card-name">Grutas de Tolantongo</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b46da57d-a0be-40fb-88c9-ee09493cabbe" data-venue-name="Hierve el Agua" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/b46da57d-a0be-40fb-88c9-ee09493cabbe.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇲🇽 Mexico · San Lorenzo Albarradas</div>
+        <h3 class="vote-card-name">Hierve el Agua</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="0eeb9c93-81ae-4e38-94e0-215c6be336b5" data-venue-name="SALT Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/0eeb9c93-81ae-4e38-94e0-215c6be336b5.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇳🇴 Norway · Oslo</div>
+        <h3 class="vote-card-name">SALT Sauna</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ea144f9e-891b-49e6-bd67-e8ecaaa60f75" data-venue-name="Soria Moria" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/ea144f9e-891b-49e6-bd67-e8ecaaa60f75.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇳🇴 Norway · Dalen</div>
+        <h3 class="vote-card-name">Soria Moria</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="5c25ff56-f216-4c2d-a7f1-77589410a9b1" data-venue-name="Trevarefabrikken" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/5c25ff56-f216-4c2d-a7f1-77589410a9b1.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇳🇴 Norway · Henningsvær</div>
+        <h3 class="vote-card-name">Trevarefabrikken</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="de80ae21-2a3a-464c-83a8-28370ea8e6d9" data-venue-name="Aguas Calientes Banos" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/de80ae21-2a3a-464c-83a8-28370ea8e6d9.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇵🇪 Peru · Aguas Calientes</div>
+        <h3 class="vote-card-name">Aguas Calientes Banos</h3>
+        <div class="vote-card-chips">hot spring · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="1385420e-dccb-4403-834b-26e6578183ec" data-venue-name="Honey Banya Olgino" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/1385420e-dccb-4403-834b-26e6578183ec.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Saint Petersburg</div>
+        <h3 class="vote-card-name">Honey Banya Olgino</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="1442773f-7760-4a50-ab08-843aa56160b8" data-venue-name="Krasnopresnenskie Bani" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/1442773f-7760-4a50-ab08-843aa56160b8.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Moscow</div>
+        <h3 class="vote-card-name">Krasnopresnenskie Bani</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="60b748f5-3281-4688-be53-51360a8c7eeb" data-venue-name="Mytninskie Bani" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/60b748f5-3281-4688-be53-51360a8c7eeb.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Saint Petersburg</div>
+        <h3 class="vote-card-name">Mytninskie Bani</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="401dc595-5f2a-4dc5-b634-b8b197996a8d" data-venue-name="Rzhevskie Bani" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/401dc595-5f2a-4dc5-b634-b8b197996a8d.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Moscow</div>
+        <h3 class="vote-card-name">Rzhevskie Bani</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="31d5a47c-5e03-4a57-9860-9c260b47f149" data-venue-name="SAUNA.SPB.RU" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/31d5a47c-5e03-4a57-9860-9c260b47f149.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Санкт-Петербург</div>
+        <h3 class="vote-card-name">SAUNA.SPB.RU</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="34521ef0-dd21-41b2-b194-a7e0e78fb8c0" data-venue-name="Sanduny Sibir" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/34521ef0-dd21-41b2-b194-a7e0e78fb8c0.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Novosibirsk</div>
+        <h3 class="vote-card-name">Sanduny Sibir</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8f58b5bc-90ba-49bc-9923-bd061b733ad4" data-venue-name="Varshavskie Bani" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/8f58b5bc-90ba-49bc-9923-bd061b733ad4.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Moscow</div>
+        <h3 class="vote-card-name">Varshavskie Bani</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="a67fa7bf-82cd-477b-a45d-d54393174854" data-venue-name="Zhivica Banya" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/a67fa7bf-82cd-477b-a45d-d54393174854.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇷🇺 Russia · Moscow</div>
+        <h3 class="vote-card-name">Zhivica Banya</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="af9a9954-ee88-43ec-9a28-271b6f6cac4f" data-venue-name="Dudka Bar &amp; Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/af9a9954-ee88-43ec-9a28-271b6f6cac4f.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇹🇭 Thailand · Ko Pha Ngan</div>
+        <h3 class="vote-card-name">Dudka Bar & Sauna</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="1905cdcf-6b65-4a42-9b54-5eb32865edf3" data-venue-name="The Dome Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/1905cdcf-6b65-4a42-9b54-5eb32865edf3.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇹🇭 Thailand · Ko Pha Ngan</div>
+        <h3 class="vote-card-name">The Dome Sauna</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="04c8f31f-8f46-41e4-aaf0-283f2ce4ed40" data-venue-name="Bursa Eski Kaplica" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/04c8f31f-8f46-41e4-aaf0-283f2ce4ed40.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇹🇷 Turkey · Bursa</div>
+        <h3 class="vote-card-name">Bursa Eski Kaplica</h3>
+        <div class="vote-card-chips">thermal bath · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="8a5a646e-d807-41b9-8dfa-b11a8d5ae1ba" data-venue-name="Pamukkale Travertenleri" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/8a5a646e-d807-41b9-8dfa-b11a8d5ae1ba.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇹🇷 Turkey · Pamukkale</div>
+        <h3 class="vote-card-name">Pamukkale Travertenleri</h3>
+        <div class="vote-card-chips">thermal bath · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="b37fe135-8ce3-4468-b64b-2e5eaea912b1" data-venue-name="612 Sauna Society" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/b37fe135-8ce3-4468-b64b-2e5eaea912b1.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Minneapolis</div>
+        <h3 class="vote-card-name">612 Sauna Society</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="4b73b3c3-2f85-45c2-aba9-5738582d2948" data-venue-name="Archimedes Banya" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/4b73b3c3-2f85-45c2-aba9-5738582d2948.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · San Francisco</div>
+        <h3 class="vote-card-name">Archimedes Banya</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="c694c505-0f47-42d3-8c18-7e015eb35215" data-venue-name="Banya" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/c694c505-0f47-42d3-8c18-7e015eb35215.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Portsmouth</div>
+        <h3 class="vote-card-name">Banya</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="31aa4142-1f23-42bf-9bf2-7ff09a2451f8" data-venue-name="Banya 5" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/31aa4142-1f23-42bf-9bf2-7ff09a2451f8.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Seattle</div>
+        <h3 class="vote-card-name">Banya 5</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="79a8616c-bf67-4408-840f-c828d6fa0212" data-venue-name="Bathhouse Flatiron" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/79a8616c-bf67-4408-840f-c828d6fa0212.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · New York</div>
+        <h3 class="vote-card-name">Bathhouse Flatiron</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="97e92567-c4ce-4423-97cb-53bfb41264e4" data-venue-name="Bathhouse Williamsburg" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/97e92567-c4ce-4423-97cb-53bfb41264e4.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Brooklyn</div>
+        <h3 class="vote-card-name">Bathhouse Williamsburg</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="3d7e7a52-e8be-491d-949d-c0b18780f627" data-venue-name="Cedar + Stone Nordic Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/3d7e7a52-e8be-491d-949d-c0b18780f627.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Duluth</div>
+        <h3 class="vote-card-name">Cedar + Stone Nordic Sauna</h3>
+        <div class="vote-card-chips">bathhouse · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="28234ce7-9013-4f49-8ba2-6987d7381836" data-venue-name="Ebb &amp; Ember" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/28234ce7-9013-4f49-8ba2-6987d7381836.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Portland</div>
+        <h3 class="vote-card-name">Ebb & Ember</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="9d76f95a-1dcc-46ad-9521-ab5e77356523" data-venue-name="Fjord Sauna" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/9d76f95a-1dcc-46ad-9521-ab5e77356523.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Sausalito</div>
+        <h3 class="vote-card-name">Fjord Sauna</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="9e84107f-a724-4f46-9b2c-16b82603ca39" data-venue-name="Jalu Bathhouse" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/9e84107f-a724-4f46-9b2c-16b82603ca39.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Lawrence</div>
+        <h3 class="vote-card-name">Jalu Bathhouse</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="81a2db27-fd0a-4869-91db-4a5d7bd4974f" data-venue-name="Loyly Nordic Spa" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/81a2db27-fd0a-4869-91db-4a5d7bd4974f.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Salt Lake City</div>
+        <h3 class="vote-card-name">Loyly Nordic Spa</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="e8aff955-babb-4f2a-a0d2-1ee93dd1783b" data-venue-name="Mermaid Spa" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/e8aff955-babb-4f2a-a0d2-1ee93dd1783b.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Brooklyn</div>
+        <h3 class="vote-card-name">Mermaid Spa</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="3ebe2934-c6eb-4d64-803e-ea71bbfbed6c" data-venue-name="Othership" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/3ebe2934-c6eb-4d64-803e-ea71bbfbed6c.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Brooklyn</div>
+        <h3 class="vote-card-name">Othership</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="f465ad15-fdd4-47f3-b1a7-5f871d99b527" data-venue-name="Othership Flatiron" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/f465ad15-fdd4-47f3-b1a7-5f871d99b527.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · New York</div>
+        <h3 class="vote-card-name">Othership Flatiron</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="ec9c2734-43b7-44a2-ac5f-e5f3d84a0d71" data-venue-name="Red Square Chicago Bath House" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/ec9c2734-43b7-44a2-ac5f-e5f3d84a0d71.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Chicago</div>
+        <h3 class="vote-card-name">Red Square Chicago Bath House</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d1f77abb-3510-4032-96fe-c2c10e3bfb17" data-venue-name="Rolling View Bathhouse" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/d1f77abb-3510-4032-96fe-c2c10e3bfb17.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Durham</div>
+        <h3 class="vote-card-name">Rolling View Bathhouse</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="57b193c7-d9f8-429d-bb01-dd74d8e87588" data-venue-name="Russian &amp; Turkish Baths" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/57b193c7-d9f8-429d-bb01-dd74d8e87588.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · New York</div>
+        <h3 class="vote-card-name">Russian & Turkish Baths</h3>
+        <div class="vote-card-chips">bathhouse · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="3cb9a06e-624a-4689-83b8-15cafe73ad4e" data-venue-name="Russian Banya of Dallas" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/3cb9a06e-624a-4689-83b8-15cafe73ad4e.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Carrollton</div>
+        <h3 class="vote-card-name">Russian Banya of Dallas</h3>
+        <div class="vote-card-chips">sauna · steam</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="5d73f619-1740-49c2-9ae7-d3d4083d4266" data-venue-name="The Society Spa &amp; Bathhouse" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/5d73f619-1740-49c2-9ae7-d3d4083d4266.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Bingen</div>
+        <h3 class="vote-card-name">The Society Spa & Bathhouse</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="70938b90-2ebd-4433-bf11-f1c375e58c08" data-venue-name="Wi Spa" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/70938b90-2ebd-4433-bf11-f1c375e58c08.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Los Angeles</div>
+        <h3 class="vote-card-name">Wi Spa</h3>
+        <div class="vote-card-chips">sauna · electric</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+    <button class="vote-card" data-venue-id="d0daf603-6ce1-42da-8725-0a9d83016df9" data-venue-name="Wild Haus" disabled>
+      <div class="vote-card-cover" style="background-image:url('https://wzpggmytlbhgzxyjvidr.supabase.co/storage/v1/object/public/gold-photos/d0daf603-6ce1-42da-8725-0a9d83016df9.jpg')"></div>
+      <div class="vote-card-body">
+        <div class="vote-card-flag">🇺🇸 United States · Seattle</div>
+        <h3 class="vote-card-name">Wild Haus</h3>
+        <div class="vote-card-chips">sauna · wood-fired</div>
+      </div>
+      <div class="vote-card-pick">+</div>
+    </button>
+    
+  </div>
+</section>
+
+<script type="module">
+  import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+  const SUPABASE_URL = 'https://wzpggmytlbhgzxyjvidr.supabase.co';
+  const SUPABASE_KEY = 'sb_publishable__2urAIi6bnrK4MrmfXR_nA_QBzN-L4d';
+  const QUARTER_KEY  = '2026-Q2';
+  const MAX_VOTES    = 10;
+
+  const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
+  const banner   = document.getElementById('auth-banner');
+  const status   = document.getElementById('vote-status');
+  const counter  = document.getElementById('my-vote-count');
+  const grid     = document.getElementById('vote-grid');
+
+  let myVotes = new Map();   // venue_id → vote.id
+  let user    = null;
+
+  async function init() {
+    const { data: { user: u } } = await sb.auth.getUser();
+    user = u;
+    if (!user) {
+      banner.style.display = 'block';
+      status.textContent   = 'Not signed in';
+      counter.textContent  = '—';
+      return;
+    }
+    banner.style.display = 'none';
+    status.textContent   = 'Signed in';
+    document.querySelectorAll('.vote-card').forEach(b => b.disabled = false);
+
+    const { data: votes, error } = await sb
+      .from('saunasto_votes')
+      .select('id, venue_id')
+      .eq('quarter_key', QUARTER_KEY);
+
+    if (error) {
+      status.textContent = 'Error: ' + error.message;
+      return;
+    }
+    myVotes = new Map((votes || []).map(v => [v.venue_id, v.id]));
+    paintAll();
+  }
+
+  function paintAll() {
+    counter.textContent = `${myVotes.size}`;
+    document.querySelectorAll('.vote-card').forEach(card => {
+      const id     = card.dataset.venueId;
+      const picked = myVotes.has(id);
+      card.classList.toggle('picked', picked);
+      card.querySelector('.vote-card-pick').textContent = picked ? '✓' : '+';
+    });
+  }
+
+  async function toggle(card) {
+    if (!user) { window.location.href = '/login/'; return; }
+    const id   = card.dataset.venueId;
+    const name = card.dataset.venueName;
+    if (myVotes.has(id)) {
+      const voteId = myVotes.get(id);
+      const { error } = await sb.from('saunasto_votes').delete().eq('id', voteId);
+      if (error) { status.textContent = 'Withdraw failed: ' + error.message; return; }
+      myVotes.delete(id);
+    } else {
+      if (myVotes.size >= MAX_VOTES) {
+        status.textContent = `Limit reached (${MAX_VOTES}). Unpick one first.`;
+        return;
+      }
+      const { data, error } = await sb
+        .from('saunasto_votes')
+        .insert({ venue_id: id, quarter_key: QUARTER_KEY })
+        .select('id')
+        .single();
+      if (error) { status.textContent = 'Vote failed: ' + error.message; return; }
+      myVotes.set(id, data.id);
+      status.textContent = `Voted for ${name}`;
+    }
+    paintAll();
+  }
+
+  grid.addEventListener('click', (e) => {
+    const card = e.target.closest('.vote-card');
+    if (card) { toggle(card); }
+  });
+
+  sb.auth.onAuthStateChange(() => init());
+  init();
+</script>
+
+<footer>
+  <div>Saunasto · The world's saunas, indexed.</div>
+  <nav>
+    <a href="/the-100/">The 100</a>
+    <a href="/#countries">Countries</a>
+    <a href="/#about">About</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/terms/">Terms</a>
+  </nav>
+</footer>
+
+</body>
+</html>
