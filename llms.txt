@@ -1,10 +1,10 @@
 # Saunasto
 
-Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs, and thermal baths. The base catalogue inside our iOS app holds 19000 active venues across 35 countries. The Curator's Picks on this site are the 141 we'd send a friend to first.
+Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs, and thermal baths. The base catalogue inside our iOS app holds 19000 active venues across 35 countries. The Curator's Picks on this site are the 157 we'd send a friend to first.
 
 ## Status (2026-05-07)
 
-- 141 Curator's Picks across 27 countries.
+- 157 Curator's Picks across 27 countries.
 - iOS app live in TestFlight; public App Store launch in spring 2026.
 - Quarterly editorial ranking ("The Saunasto 100") begins July 1, 2026.
 
@@ -14,6 +14,8 @@ Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs,
 - https://saunasto.com/united-states/ : United States (21 picks)
 - https://saunasto.com/japan/ : Japan (14 picks)
 - https://saunasto.com/germany/ : Germany (13 picks)
+- https://saunasto.com/united-kingdom/ : United Kingdom (9 picks)
+- https://saunasto.com/south-korea/ : South Korea (8 picks)
 - https://saunasto.com/russia/ : Russia (8 picks)
 - https://saunasto.com/hungary/ : Hungary (7 picks)
 - https://saunasto.com/austria/ : Austria (6 picks)
@@ -25,6 +27,7 @@ Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs,
 - https://saunasto.com/lithuania/ : Lithuania (4 picks)
 - https://saunasto.com/italy/ : Italy (3 picks)
 - https://saunasto.com/norway/ : Norway (3 picks)
+- https://saunasto.com/greece/ : Greece (2 picks)
 - https://saunasto.com/mexico/ : Mexico (2 picks)
 - https://saunasto.com/thailand/ : Thailand (2 picks)
 - https://saunasto.com/turkey/ : Turkey (2 picks)
@@ -32,10 +35,7 @@ Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs,
 - https://saunasto.com/chile/ : Chile (1 picks)
 - https://saunasto.com/colombia/ : Colombia (1 picks)
 - https://saunasto.com/costa-rica/ : Costa Rica (1 picks)
-- https://saunasto.com/united-kingdom/ : United Kingdom (1 picks)
-- https://saunasto.com/greece/ : Greece (1 picks)
 - https://saunasto.com/indonesia/ : Indonesia (1 picks)
-- https://saunasto.com/south-korea/ : South Korea (1 picks)
 - https://saunasto.com/peru/ : Peru (1 picks)
 
 ## Venue pages (sample)
@@ -71,7 +71,7 @@ Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs,
 - https://saunasto.com/germany/friedrichsbad/ : Friedrichsbad (🇩🇪 Germany)
 - https://saunasto.com/germany/liquidrom/ : Liquidrom (🇩🇪 Germany)
 
-...plus 111 more venue pages.
+...plus 127 more venue pages.
 
 ## What this content is for
 
