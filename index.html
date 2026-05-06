@@ -63,6 +63,7 @@
   <p class="lead">Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs, and thermal baths. Every Curator's Pick on this site is gold-tier: hand-checked, photographed, and sourced. The full catalogue of 19000 venues lives in the iOS app. The 157 below are the ones we'd send a friend to first.</p>
   <div class="hero-cta-row" style="justify-content:center;margin-top:32px;">
     <a href="/the-100/" class="btn-app-store">See the Saunasto 100 →</a>
+    <a href="#waitlist" class="btn-secondary">Join the waiting list ↓</a>
   </div>
 </section>
 
@@ -386,6 +387,126 @@
       <p>Selection is editorial, not algorithmic. The criteria: real saunas (not tanning salons or hotel-spa add-ons), real cultural lineage (banya, onsen, jjimjilbang, Finnish, German, Hungarian, hammam), real water (no chlorine baths labelled "thermal"), and a hard preference for venues you can actually visit. Hotel-only saunas score lower than public ones. Membership-only clubs are excluded unless the membership is realistically obtainable.</p>
     </div>
   </div>
+</section>
+
+<section id="waitlist" class="section">
+  <div class="section-eyebrow">Waiting list</div>
+  <h2>The next edition lands quarterly.</h2>
+  <p class="section-intro">The Saunasto 100 refreshes every quarter. Drop your email if you want the next ranking, the new venue admissions, and the field-journal essay sent to your inbox the day it ships. No marketing, no resale, one mail per edition.</p>
+
+  <form id="waitlist-form" class="waitlist-form"
+        data-supabase-url="https://wzpggmytlbhgzxyjvidr.supabase.co"
+        data-anon-key="sb_publishable__2urAIi6bnrK4MrmfXR_nA_QBzN-L4d"
+        autocomplete="off" novalidate>
+    <label class="waitlist-row">
+      <span class="waitlist-label">Email address</span>
+      <input type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+    </label>
+    <label class="waitlist-row">
+      <span class="waitlist-label">Most-curious country (optional)</span>
+      <select name="country_interest">
+        <option value="">No preference</option>
+        
+        <option value="FI">🇫🇮 Finland</option>
+        
+        <option value="US">🇺🇸 United States</option>
+        
+        <option value="JP">🇯🇵 Japan</option>
+        
+        <option value="DE">🇩🇪 Germany</option>
+        
+        <option value="GB">🇬🇧 United Kingdom</option>
+        
+        <option value="RU">🇷🇺 Russia</option>
+        
+        <option value="KR">🇰🇷 South Korea</option>
+        
+        <option value="HU">🇭🇺 Hungary</option>
+        
+        <option value="AT">🇦🇹 Austria</option>
+        
+        <option value="CA">🇨🇦 Canada</option>
+        
+        <option value="EE">🇪🇪 Estonia</option>
+        
+        <option value="IS">🇮🇸 Iceland</option>
+        
+        <option value="LV">🇱🇻 Latvia</option>
+        
+        <option value="CH">🇨🇭 Switzerland</option>
+        
+        <option value="LT">🇱🇹 Lithuania</option>
+        
+        <option value="IT">🇮🇹 Italy</option>
+        
+        <option value="NO">🇳🇴 Norway</option>
+        
+        <option value="GR">🇬🇷 Greece</option>
+        
+        <option value="MX">🇲🇽 Mexico</option>
+        
+        <option value="TH">🇹🇭 Thailand</option>
+        
+        <option value="TR">🇹🇷 Turkey</option>
+        
+        <option value="AR">🇦🇷 Argentina</option>
+        
+        <option value="CL">🇨🇱 Chile</option>
+        
+        <option value="CO">🇨🇴 Colombia</option>
+        
+        <option value="CR">🇨🇷 Costa Rica</option>
+        
+        <option value="ID">🇮🇩 Indonesia</option>
+        
+        <option value="PE">🇵🇪 Peru</option>
+        
+      </select>
+    </label>
+    <button type="submit" class="btn-app-store">Join the waiting list →</button>
+    <div class="waitlist-fineprint" id="waitlist-status"
+         aria-live="polite" aria-atomic="true">
+      One mail per quarter. Unsubscribe in any of them. Stored in Supabase, EU region, never resold.
+    </div>
+  </form>
+
+  <script type="module">
+    import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+    const form   = document.getElementById('waitlist-form');
+    const status = document.getElementById('waitlist-status');
+    const url    = form.dataset.supabaseUrl;
+    const key    = form.dataset.anonKey;
+    if (!url || !key) {
+      status.textContent = 'Waiting list is being set up. Check back tomorrow.';
+    } else {
+      const sb = createClient(url, key);
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email   = form.email.value.trim().toLowerCase();
+        const country = form.country_interest.value || null;
+        if (!email || !email.includes('@')) {
+          status.textContent = 'Please enter a real email address.';
+          return;
+        }
+        status.textContent = 'Adding you...';
+        const { error } = await sb.from('saunasto_waitlist').insert({
+          email,
+          country_interest: country,
+          source: 'saunasto.com/',
+        });
+        if (error) {
+          if ((error.code || '') === '23505') {
+            status.textContent = 'You are already on the list. See you next quarter.';
+          } else {
+            status.textContent = 'Could not save right now. Try again in a moment.';
+          }
+          return;
+        }
+        form.reset();
+        status.textContent = 'On the list. Next edition lands at the end of the quarter.';
+      });
+    }
+  </script>
 </section>
 
 <section id="about" class="section">

@@ -1402,3 +1402,64 @@ body[lang="he"] .waitlist-fineprint {
   .movement-pill.down  { background: rgba(231, 76, 60, 0.20);  color: #e07a6e; }
   .movement-pill.new   { background: rgba(212, 168, 92, 0.22); color: var(--gold); }
 }
+
+/* ----- Waiting list form ----- */
+.waitlist-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 540px;
+  margin: 32px 0 0;
+  padding: 28px 28px 24px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--card-bg, transparent);
+}
+.waitlist-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.waitlist-label {
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.waitlist-form input[type="email"],
+.waitlist-form select {
+  font-family: 'Public Sans', system-ui, sans-serif;
+  font-size: 16px;
+  padding: 11px 14px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+.waitlist-form input[type="email"]:focus,
+.waitlist-form select:focus {
+  outline: none;
+  border-color: var(--gold, #b58a2c);
+  box-shadow: 0 0 0 3px rgba(181, 138, 44, 0.18);
+}
+.waitlist-form button[type="submit"] {
+  justify-self: start;
+  margin-top: 4px;
+  cursor: pointer;
+  border: none;
+}
+.waitlist-fineprint {
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  margin-top: 4px;
+  min-height: 1.55em;
+}
+@media (max-width: 520px) {
+  .waitlist-form { padding: 22px 18px 20px; }
+}
