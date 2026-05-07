@@ -1,0 +1,1948 @@
+# Saunasto · Full Curator's Picks
+
+Generated 2026-05-07 from saunamap-v1.db.
+This is the long-form companion to https://saunasto.com/llms.txt — every hand-picked Curator's Pick across 27 countries, in one citable markdown file.
+
+- 157 venues described here.
+- 19,306 additional active venues in the iOS app catalogue (not enumerated below).
+- Cross-reference: https://saunasto.com/data/saunasto-100.json for the ranked list as structured JSON.
+
+---
+
+## 🇫🇮 Finland  (21 picks)
+
+Finland has more saunas than cars. Two million saunas, five and a half million people, a national pastime that predates the Iron Age. The country's sauna culture is on the UNESCO Intangible Cultural Heritage list. To visit Finland and not visit a sauna is to miss the country entirely.
+
+### Allas Sea Pool
+
+- City: Helsinki
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 60.1678, 24.9563
+- Website: https://www.allaspool.fi/en/pools-and-saunas/
+- Saunasto page: https://saunasto.com/finland/allas-sea-pool/
+
+Helsinki's iconic floating sea pool and sauna complex in the harbor with city views.
+
+### Häkä Löylyt
+
+- City: Nivala
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 63.9418, 24.8174
+- Saunasto page: https://saunasto.com/finland/haka-loylyt/
+
+### Kaupinoja Sauna
+
+- City: Tampere
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 61.5152, 23.8044
+- Website: https://talviuimarit.fi/kaupinojan-sauna-eng/
+- Saunasto page: https://saunasto.com/finland/kaupinoja-sauna/
+
+The whole family can enjoy Kaupinoja sauna.
+
+Kaupinoja sauna is practically open all the time, except on the second Tuesday of every month, when maintenance is carried out there. In our large sauna you will get quality steam, after which it is nice to take a dip in the refreshing lake water.
+
+You can swim in Lake Näsijärvi both in summer and in winter. From the sauna, a path and stairs lead directly to the lake, so the passage is smooth.
+
+Welcome to the hot steam!
+
+### Kotiharjun sauna
+
+- City: Helsinki
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 60.1865, 24.9573
+- Website: https://www.kotiharjunsauna.fi/
+- Saunasto page: https://saunasto.com/finland/kotiharjun-sauna/
+
+Helsinki's last wood-heated public sauna, operating since 1928 in the Kallio district. A traditional Finnish sauna experience.
+
+### Kovien löylyjen sauna
+
+- City: Helsinki
+- Type: sauna
+- Heat: smoke
+- Access: public
+- Coordinates: 60.2087, 25.1416
+- Website: https://saunologia.fi/kaken-grilli-helsinki/
+- Saunasto page: https://saunasto.com/finland/kovien-loylyjen-sauna/
+
+### Kulttuurisauna
+
+- City: Helsinki
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 60.1791, 24.9559
+- Website: https://www.kulttuurisauna.fi
+- Saunasto page: https://saunasto.com/finland/kulttuurisauna/
+
+Wood-fired public sauna at Hakaniemenranta in Helsinki, designed by architects Tuomas Toivonen and Nene Tsuboi, opened 2013. Two saunas (men's + women's), cold dip in the Baltic, no booking, eco-architecture.
+
+### Löyly
+
+- City: Helsinki
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 60.1522, 24.9304
+- Website: https://www.loylyhelsinki.fi/en
+- Saunasto page: https://saunasto.com/finland/loyly/
+
+### Löyly Helsinki
+
+- City: Helsinki
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 60.1524, 24.9298
+- Saunasto page: https://saunasto.com/finland/loyly-helsinki/
+
+### Löylykontti Kivenlahti
+
+- City: Espoo
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 60.1537, 24.6265
+- Website: https://www.loylykontti.fi/en
+- Saunasto page: https://saunasto.com/finland/loylykontti-kivenlahti/
+
+### Löylykontti Laaksolahti
+
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 60.2463, 24.7498
+- Website: https://www.loylykontti.fi/
+- Saunasto page: https://saunasto.com/finland/loylykontti-laaksolahti/
+
+### Löylykontti Matinkylä
+
+- City: Espoo
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 60.1498, 24.7533
+- Website: https://www.loylykontti.fi/en
+- Saunasto page: https://saunasto.com/finland/loylykontti-matinkyla/
+
+### Löylykontti Sörnäinen
+
+- City: Helsinki
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 60.1823, 24.9633
+- Website: https://www.loylykontti.fi/
+- Saunasto page: https://saunasto.com/finland/loylykontti-sornainen/
+
+### Löylymestari
+
+- City: Rauma
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 61.1399, 21.4722
+- Website: http://www.merijakamo.fi/loylymestari
+- Saunasto page: https://saunasto.com/finland/loylymestari/
+
+### Löylymestarit sauna
+
+- City: Tampere
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 61.4988, 23.7705
+- Saunasto page: https://saunasto.com/finland/loylymestarit-sauna/
+
+### Rajaportin sauna
+
+- City: Tampere
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 61.5021, 23.7197
+- Saunasto page: https://saunasto.com/finland/rajaportin-sauna/
+
+Finland's oldest public sauna still in use, established in 1906 in Tampere.
+
+### Sauna Hermanni – Hakaniemenranta
+
+- City: Helsinki
+- Type: sauna
+- Access: public
+- Coordinates: 60.1780, 24.9633
+- Saunasto page: https://saunasto.com/finland/sauna-hermanni-hakaniemenranta/
+
+A cherished traditional public sauna in Helsinki's Hakaniemi district. Wood-heated löyly, authentic Finnish bathing culture, and a loyal local community. One of Helsinki's last remaining neighborhood public saunas.
+
+### Saunalautta M/S Löyly
+
+- City: Jyväskylä
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 62.2368, 25.7540
+- Website: http://www.saunalautta.fi
+- Saunasto page: https://saunasto.com/finland/saunalautta-m-s-loyly/
+
+### Saunaravintola Kuuma
+
+- City: Tampere
+- Type: sauna
+- Heat: smoke
+- Access: public
+- Coordinates: 61.4945, 23.7605
+- Website: https://saunaravintolakuuma.fi/
+- Saunasto page: https://saunasto.com/finland/saunaravintola-kuuma/
+
+A popular sauna restaurant in Tampere combining traditional sauna with urban vibes on the lakefront.
+
+### Seven Star Smoke Sauna at Isokenkäisten Klubi
+
+- City: Kuusamo
+- Type: sauna
+- Heat: smoke
+- Access: public
+- Coordinates: 66.1014, 29.8372
+- Website: https://www.ikk.fi/en/saunas/
+- Saunasto page: https://saunasto.com/finland/seven-star-smoke-sauna-at-isokenkaisten-klubi/
+
+The gentle warmth and scent of the Seven Star Smoke Sauna at Isokenkäisten Klubi in Kuusamo leaves you with an ever-lasting memory. 
+The sauna is heated with dry birch logs that come from our own forest. Heating the smoke sauna is not a job for a busy man, it takes hours of careful heating to get the temperature right. Our sauna master takes care of heating the sauna, and he also knows how to make the traditional, fragrant birch whisks. Bathing in an authentic smoke sauna is a unique experience.
+
+### Yrjönkadun Uimahalli
+
+- City: Helsinki
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 60.1668, 24.9352
+- Website: https://www.hel.fi/en/culture-and-leisure/sports-and-outdoor-activities/swimming-halls
+- Saunasto page: https://saunasto.com/finland/yrjonkadun-uimahalli/
+
+Helsinki's oldest public swimming hall, 1928, with men's and women's saunas adjoining the central pool. The most architecturally significant public sauna in Finland.
+
+### uusi sauna SAFA
+
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 60.5155, 24.6884
+- Website: https://uusisauna.fi/
+- Saunasto page: https://saunasto.com/finland/uusi-sauna-safa/
+
+---
+
+## 🇺🇸 United States  (21 picks)
+
+America's sauna culture is borrowed and braided. The Finns brought it to Minnesota and Wisconsin. The Russians brought banya to Brighton Beach and Wicker Park. The Koreans brought jjimjilbang to Koreatown LA. Now a new generation is building social bathhouses (Othership, Bathhouse, World Spa) that take from all three traditions and add their own communal vocabulary.
+
+### 612 Sauna Society
+
+- City: Minneapolis
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 44.9554, -93.2502
+- Website: https://612saunasociety.com/
+- Saunasto page: https://saunasto.com/united-states/612-sauna-society/
+
+612 Sauna Cooperative provides welcoming sauna experiences in Minneapolis and the greater Twin Cities. Originally 612 Sauna Society, we
+
+### Archimedes Banya
+
+- City: San Francisco
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 37.7306, -122.3727
+- Website: https://banyasf.com/
+- Saunasto page: https://saunasto.com/united-states/archimedes-banya/
+
+Archimedes Banya is a Russian bathhouse on the shores of the San Francisco Bay. It is a place to meet with old friends, make new ones, or have a quiet time just to refresh and energize yourself.
+
+### Banya
+
+- City: Portsmouth
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 43.0677, -70.7766
+- Website: https://letsbanya.com/
+- Saunasto page: https://saunasto.com/united-states/banya/
+
+A traditional bathhouse in Portsmouth, US. Features a steam bath.
+
+### Banya 5
+
+- City: Seattle
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 47.6203, -122.3400
+- Website: https://www.banya5.com/
+- Saunasto page: https://saunasto.com/united-states/banya-5/
+
+Seattle's authentic Russian banya offering hydrotherapy, steam rooms, and traditional venik platza treatments. A beloved institution for the Pacific Northwest sauna community.
+
+### Bathhouse Flatiron
+
+- City: New York
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 40.7411, -73.9912
+- Website: https://abathhouse.com/flatiron
+- Saunasto page: https://saunasto.com/united-states/bathhouse-flatiron/
+
+Bathhouse Flatiron features thermal pools, saunas, a steam room, and marble hammams. Access with a Day Pass or Treatment. Book your visit today.
+
+### Bathhouse Williamsburg
+
+- City: Brooklyn
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 40.7205, -73.9574
+- Website: https://www.brooklynbathhouse.nyc/
+- Saunasto page: https://saunasto.com/united-states/bathhouse-williamsburg/
+
+Discover thermal pools, cold plunge, saunas, &amp; steam rooms. Indulge in a massage, a body scrub, or facial. Yoga classes and special peerformances and events occur weekly. Enjoy the perfect Spa Day at Brooklyn Bathhouse.
+
+### Cedar + Stone Nordic Sauna
+
+- City: Duluth
+- Type: bathhouse
+- Heat: electric
+- Access: public
+- Coordinates: 46.7837, -92.0936
+- Website: https://cedarandstonesauna.com
+- Saunasto page: https://saunasto.com/united-states/cedar-stone-nordic-sauna/
+
+Discover how sauna and cold plunge offer relief from the stress of modern life, and what bringing sauna home could look like for you.
+
+### Ebb & Ember
+
+- City: Portland
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 45.6048, -122.6750
+- Website: https://www.ebbandember.com/
+- Saunasto page: https://saunasto.com/united-states/ebb-ember/
+
+A floating wood-fired sauna on the Columbia River in Portland. Contrast therapy with river plunge and Pacific Northwest forest views.
+
+### Fjord Sauna
+
+- City: Sausalito
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 37.8590, -122.4852
+- Website: https://www.thisisfjord.com/
+- Saunasto page: https://saunasto.com/united-states/fjord-sauna/
+
+A floating Nordic sauna experience on San Francisco Bay in Sausalito. Wood-fired sauna on the water with cold plunge into the Bay and stunning Golden Gate views.
+
+### Jalu Bathhouse
+
+- City: Lawrence
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 39.0431, -95.2154
+- Saunasto page: https://saunasto.com/united-states/jalu-bathhouse/
+
+EU-U.S., UK Extension, and Swiss-U.S. To learn more, see the Where we store and process personal data section, and visit the U.S. Microsoft offers a wide range of products, including server products used to help operate enterprises worldwide, devices you use in your home, software that students use at school, and services developers use to create a
+
+### Loyly Nordic Spa
+
+- City: Salt Lake City
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 40.7620, -111.8950
+- Website: https://www.loylynordicspa.com/
+- Saunasto page: https://saunasto.com/united-states/loyly-nordic-spa/
+
+The largest authentic Finnish sauna in the United States, located in Salt Lake City. Traditional löyly, cold plunge, and Nordic bathing rituals in a purpose-built facility.
+
+### Mermaid Spa
+
+- City: Brooklyn
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 40.5750, -74.0032
+- Website: https://mermaidspa.us/
+- Saunasto page: https://saunasto.com/united-states/mermaid-spa/
+
+An authentic Russian banya in Coney Island, Brooklyn. Wood-fired sauna with traditional platza oak leaf treatments, cold plunge pools, and a full Russian spa experience. A New York City institution for banya culture.
+
+### Othership
+
+- City: Brooklyn
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 40.7231, -73.9581
+- Website: https://www.othership.us/
+- Saunasto page: https://saunasto.com/united-states/othership/
+
+Shop Book A Class Buy a pass GET 22% OFF X Give 22%, Get 22% Refer a first-timer friend and you’ll both receive 22% off a single drop-in. Your code unlocks after their visit. Activate Othertips Copy to share anywhere https://othertips.perkville.com/referral/109372701/ Copy Copied to clipboard SEND THE OFFER BY EMAIL Your invitation is on its way.
+
+### Othership Flatiron
+
+- City: New York
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 40.7404, -73.9925
+- Website: https://www.othership.us/flatiron
+- Saunasto page: https://saunasto.com/united-states/othership-flatiron/
+
+9,550 sq ft breathwork and sauna experience in Manhattan's Flatiron District. Performance sauna and ice baths.
+
+### Red Square Chicago Bath House
+
+- City: Chicago
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 41.9031, -87.6749
+- Website: https://redsquarechicago.com/
+- Saunasto page: https://saunasto.com/united-states/red-square-chicago-bath-house/
+
+Chicago's authentic Russian banya and restaurant in Wicker Park. Traditional steam sauna, cold plunge, and Russian cuisine. A neighborhood institution for banya culture.
+
+### Rolling View Bathhouse
+
+- City: Durham
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 36.0106, -78.7243
+- Website: https://www.saunahouse.com/pages/durham?srsltid=AfmBOooIG1db2dYjWpz2K9afj7uF4cHpvFwRRPZBrzWSAFpG3-dFwM8h
+- Saunasto page: https://saunasto.com/united-states/rolling-view-bathhouse/
+
+Sauna House in Durham is the only sauna &amp; lounge offering the ancient practice of contrast therapy. A Nordic Spa with sauna, bathhouse, ice bath, cold plunge, and red light therapy.
+
+### Russian & Turkish Baths
+
+- City: New York
+- Type: bathhouse
+- Heat: steam
+- Access: public
+- Coordinates: 40.7283, -73.9836
+- Website: https://www.russianturkishbaths.com/
+- Saunasto page: https://saunasto.com/united-states/russian-turkish-baths/
+
+NYC institution since 1892 in the East Village. Russian steam room, Turkish room, and Swedish sauna.
+
+### Russian Banya of Dallas
+
+- City: Carrollton
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 32.9799, -96.8905
+- Website: https://dallasbanya.com/
+- Saunasto page: https://saunasto.com/united-states/russian-banya-of-dallas/
+
+An authentic Russian banya in the Dallas-Fort Worth area. Features a 220°F steam room, traditional venik treatments, cold plunge, and a full Russian restaurant. Texas's premier banya experience.
+
+### The Society Spa & Bathhouse
+
+- City: Bingen
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 45.7140, -121.4608
+- Website: https://thesocietyhotel.com/bingen/spa-bathhouse/
+- Saunasto page: https://saunasto.com/united-states/the-society-spa-bathhouse/
+
+$35 Spa Pass | The Society Spa Bingen near Hood River &amp; White Salmon features a warm saltwater soaking pool, cold plunge, sauna and hot tub!
+
+### Wi Spa
+
+- City: Los Angeles
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 34.0594, -118.2773
+- Website: https://wispausa.com/
+- Saunasto page: https://saunasto.com/united-states/wi-spa/
+
+24-hour Korean-style jjimjilbang in LA with hot and cold baths, progressive sauna rooms, and rooftop terrace.
+
+### Wild Haus
+
+- City: Seattle
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 47.6350, -122.3370
+- Website: https://thewildhaus.com/
+- Saunasto page: https://saunasto.com/united-states/wild-haus/
+
+A floating wood-fired sauna boat on Seattle's Lake Union. Authentic Finnish löyly on the water with cold plunge into the lake. One of the most unique sauna experiences in the US.
+
+---
+
+## 🇯🇵 Japan  (14 picks)
+
+Japan sits on a tectonic furnace. Every island has hot springs, every prefecture has its onsen brand, every village has at least one bathhouse the locals would die before letting close. Volcanic heat, mineral chemistry, and a thousand years of bathing etiquette converge here in a way no other country has matched.
+
+### Beppu Onsen
+
+- City: Beppu
+- Type: onsen
+- Heat: steam
+- Access: public
+- Coordinates: 33.3157, 131.4741
+- Saunasto page: https://saunasto.com/japan/beppu-onsen/
+
+Over 2,000 hot springs in one city — the most of any city in the world. Features mud baths, sand baths, steam baths, and medicinal baths.
+
+### Dogo Onsen
+
+- City: Matsuyama
+- Type: onsen
+- Heat: wood-fired
+- Access: public
+- Coordinates: 33.8521, 132.7864
+- Website: https://dogo.jp/en
+- Saunasto page: https://saunasto.com/japan/dogo-onsen/
+
+The oldest onsen in Japan, in continuous use since the 6th century. The 1894 Dogo Onsen Honkan is a Tangible Cultural Property and the inspiration for the bath house in Spirited Away.
+
+### From P Hakuba
+
+- City: Hakuba-mura
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 36.6975, 137.8620
+- Website: https://fromp-hakuba.jp/en/
+- Saunasto page: https://saunasto.com/japan/from-p-hakuba/
+
+A glamping site combining a barrel sauna with dome tents (integrated stove systems) and outdoor structures for cooling and rest. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+### Ginzan Onsen, Yamagata
+
+- Type: onsen
+- Heat: wood-fired
+- Access: public
+- Coordinates: 41.9051, 140.6483
+- Saunasto page: https://saunasto.com/japan/ginzan-onsen-yamagata/
+
+### Hakone Onsen
+
+- City: Hakone
+- Type: onsen
+- Heat: steam
+- Access: public
+- Coordinates: 35.2284, 139.0978
+- Website: https://hakone-japan.com/things-to-do/onsen/onsen-for-a-day-visit/
+- Saunasto page: https://saunasto.com/japan/hakone-onsen/
+
+Mountain onsen town between Tokyo and Mount Fuji. Variety of mineral-rich springs, traditional ryokan inns, and lake views.
+
+### Hakuba Zekkei Sauna Rooftop
+
+- City: Hakuba-mura
+- Type: sauna
+- Heat: wood-fired
+- Access: booking required
+- Coordinates: 36.6909, 137.8670
+- Website: https://hakuba-zekkeisauna.com/
+- Saunasto page: https://saunasto.com/japan/hakuba-zekkei-sauna-rooftop/
+
+Rooftop Finnish-style sauna atop Hakuba Highland Hotel with full panoramic view of the Northern Alps.
+
+### JIKON SAUNA TOKYO
+
+- City: 青梅市
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 35.7797, 139.2534
+- Saunasto page: https://saunasto.com/japan/jikon-sauna-tokyo/
+
+Saunachelin 2025 #2. The urban sauna of the future with five saunas, three water baths, and theatrical steam performances.
+
+### Kurokawa Onsen
+
+- City: Minamioguni
+- Type: onsen
+- Heat: wood-fired
+- Access: booking required
+- Coordinates: 33.0822, 131.1311
+- Website: https://www.kurokawaonsen.or.jp/eng_new/
+- Saunasto page: https://saunasto.com/japan/kurokawa-onsen/
+
+Famously authentic mountain onsen town in the Aso highlands. The 28 ryokan share a rotenburo (outdoor-bath) ticket so visitors can sample three baths in a single day.
+
+### Kusatsu Onsen
+
+- City: Kusatsu
+- Type: onsen
+- Heat: steam
+- Access: public
+- Coordinates: 36.6209, 138.5974
+- Saunasto page: https://saunasto.com/japan/kusatsu-onsen/
+
+Japan's #1 ranked onsen for 15 consecutive years. Famous yubatake (hot water field) in the town center. Strong sulfur-rich waters.
+
+### Noboribetsu Onsen
+
+- City: Noboribetsu
+- Type: onsen
+- Heat: wood-fired
+- Access: public
+- Coordinates: 42.4949, 141.1437
+- Saunasto page: https://saunasto.com/japan/noboribetsu-onsen/
+
+Hokkaido's most famous onsen with 9 types of thermal water. Jigokudani (Hell Valley) volcanic landscape.
+
+### SAUNA TOKYO AKASAKA
+
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 35.6733, 139.7376
+- Saunasto page: https://saunasto.com/japan/sauna-tokyo-akasaka/
+
+Saunachelin 2025 #2. The urban sauna of the future with five saunas, three water baths, and theatrical steam performances.
+
+### SAZAE
+
+- City: Naoshima
+- Type: sauna
+- Heat: electric
+- Access: hotel guests
+- Coordinates: 34.4570, 134.0150
+- Website: https://benesse-artsite.jp/en/
+- Saunasto page: https://saunasto.com/japan/sazae/
+
+Designed by Kengo Kuma & Associates with interiors by Japanese sauna collective TTNE; named after the sazae, a conical sea snail native to Japan. Part of Naoshima's contemporary art programme. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+### TOTOPA
+
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 35.6748, 139.7135
+- Website: https://saunasensei.com/2025/02/07/totopa/
+- Saunasto page: https://saunasto.com/japan/totopa/
+
+Saunachelin 2025 #5. Tokyo's urban wellness escape in Meiji Park with multiple saunas and herbal infusion baths.
+
+### Yufuin Onsen
+
+- City: Yufu
+- Type: onsen
+- Heat: wood-fired
+- Access: booking required
+- Coordinates: 33.2664, 131.3611
+- Website: https://www.yufuin.gr.jp/
+- Saunasto page: https://saunasto.com/japan/yufuin-onsen/
+
+Hot-spring resort town under Mt. Yufu in northern Kyushu. Known for design-led ryokan, contemporary art galleries, and morning mist photographs.
+
+---
+
+## 🇩🇪 Germany  (13 picks)
+
+Aufguss is what makes a German sauna a German sauna. The sauna master pours water on the rocks, waves a towel through the rising steam, and circulates concentrated heat through every body in the room. It is theatrical, communal, often choreographed to music, and never optional.
+
+### Adelindis Therme
+
+- City: Bad Buchau
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 48.0625, 9.6048
+- Website: http://adelindistherme.de
+- Saunasto page: https://saunasto.com/germany/adelindis-therme/
+
+Die Thermen- und Saunalandschaft der Adelindis Therme hat geöffnet. Eine Voranmeldung ist nicht notwendig.
+
+### Aqualon Therme
+
+- City: Bad Säckingen
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 47.5605, 7.9407
+- Website: https://www.aqualon.de/
+- Saunasto page: https://saunasto.com/germany/aqualon-therme/
+
+Wohlfühlzeit genießen, Körper & Geist in Balance bringen. Therme, Sauna, Wellness & Fitness im Aqualon für Ihre aktive & passive Erholung.
+
+### Bodensee-Therme Konstanz
+
+- City: Konstanz
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 47.6641, 9.2089
+- Website: https://www.therme-konstanz.de/
+- Saunasto page: https://saunasto.com/germany/bodensee-therme-konstanz/
+
+Zeit für mich. Dem Alltag entfliehen, den Moment einfangen und gut zu sich selbst sein – darum geht es in der Bodensee-Therme Konstanz.
+
+### Caracalla Therme
+
+- City: Baden-Baden
+- Type: sauna
+- Heat: electric
+- Access: booking required
+- Coordinates: 48.7638, 8.2448
+- Website: https://www.carasana.de/de/caracalla-therme.html
+- Saunasto page: https://saunasto.com/germany/caracalla-therme/
+
+Historic thermal bath in Baden-Baden with Roman-Irish bathing tradition, multiple saunas, and mineral water pools.
+
+### Carolus Thermen Bad Aachen
+
+- City: Aachen
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 50.7839, 6.0978
+- Website: https://carolus-thermen.de/en/sauna-world/
+- Saunasto page: https://saunasto.com/germany/carolus-thermen-bad-aachen/
+
+Carolus Thermen Bad Aachen - Thermalbad, Saunawelt, Spa und Kulinarik
+
+### Chiemgau Thermen
+
+- City: Bad Endorf
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 47.9010, 12.2984
+- Website: https://www.chiemgau-thermen.de/
+- Saunasto page: https://saunasto.com/germany/chiemgau-thermen/
+
+Wohltuendes Thermalwasser, belebende Saunagänge, exzellente Wellness- und Kosmetikbehandlungen und genussvolle Gaumenfreuden.
+
+### Claudius-Therme
+
+- City: Köln
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 50.9510, 6.9797
+- Website: https://www.claudius-therme.de/
+- Saunasto page: https://saunasto.com/germany/claudius-therme/
+
+Mitten im Kölner Rheinpark empfängt Sie mit Blick auf den Kölner Dom eines der schönsten Thermalbäder Europas: die Claudius Therme.
+
+### Friedrichsbad
+
+- City: Baden-Baden
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 48.7631, 8.2422
+- Saunasto page: https://saunasto.com/germany/friedrichsbad/
+
+Renaissance bathing palace opened in 1877. A 17-step Roman-Irish bathing ritual in Baden-Baden.
+
+### Liquidrom
+
+- City: Berlin
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 52.5016, 13.3812
+- Website: https://www.liquidrom-berlin.de/
+- Saunasto page: https://saunasto.com/germany/liquidrom/
+
+Urban spa lounge in Kreuzberg with saltwater pool, underwater music, and multiple saunas. DJ sessions on weekends.
+
+### Mediterana GmbH & Co.KG
+
+- City: Bergisch Gladbach
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 50.9652, 7.1359
+- Website: https://www.mediterana.de/
+- Saunasto page: https://saunasto.com/germany/mediterana-gmbh-co-kg/
+
+13 uniquely themed saunas, thermal pools, and Hamam rituals near Cologne.
+
+### Therme Erding
+
+- City: Erding
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 48.2909, 11.8879
+- Website: https://www.therme-erding.de
+- Saunasto page: https://saunasto.com/germany/therme-erding/
+
+### Vabali Spa Berlin
+
+- City: Berlin
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 52.5276, 13.3606
+- Website: https://www.vabali.de/en/berlin/
+- Saunasto page: https://saunasto.com/germany/vabali-spa-berlin/
+
+Premium Balinese-inspired sauna and wellness complex near Berlin Hauptbahnhof. 10+ themed saunas, outdoor pools, relaxation gardens. One of Germany's best.
+
+### Vabali Spa Düsseldorf
+
+- City: Düsseldorf
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 51.1826, 6.9112
+- Website: https://www.vabali.de/en/duesseldorf/
+- Saunasto page: https://saunasto.com/germany/vabali-spa-dusseldorf/
+
+Vabali Spa is a premium day spa and sauna complex offering a wide range of saunas, steam baths, and relaxation areas in a Balinese-inspired setting. Features multiple themed saunas, outdoor pools, and restaurant.
+
+---
+
+## 🇬🇧 United Kingdom  (9 picks)
+
+Britain's bathing tradition runs through the Roman thermae at Bath, the Victorian Turkish bath revival, the seaside bathing machines, and now the wood-fired barrel saunas that line the country's beaches. The recent boom is driven by cold-water swimmers, who needed somewhere warm to go after.
+
+### Banya No.1 - Hoxton
+
+- City: London
+- Type: bathhouse
+- Heat: steam
+- Access: public
+- Coordinates: 51.5302, -0.0944
+- Website: http://www.gobanya.co.uk
+- Saunasto page: https://saunasto.com/united-kingdom/banya-no-1-hoxton/
+
+Discover the exhilarating thermal cycle of our Russian sauna and banya spa in London for a wellness experience like no other.
+
+### Beach Box Sauna
+
+- City: Brighton
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 50.8172, -0.1232
+- Website: https://beachboxspa.co.uk
+- Saunasto page: https://saunasto.com/united-kingdom/beach-box-sauna/
+
+Beach Box Spa offers a unique sauna spa experience on Brighton Beach, based the Sea Lanes development on Madeira Drive.
+
+### Community Sauna Baths - Walthamstow
+
+- City: London
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 51.5907, -0.0377
+- Website: https://www.community-sauna.co.uk/walthamstow-sauna
+- Saunasto page: https://saunasto.com/united-kingdom/community-sauna-baths-walthamstow/
+
+Sweat, plunge, and chill at our outdoor sauna in a community garden in Walthamstow. Featuring three saunas, plunge pools, hot showers and good vibes. Book your session now.
+
+### Seaside Sauna Haus
+
+- City: Seatown
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 50.7222, -2.8239
+- Website: https://www.change.org/p/let-s-keep-the-seaside-sauna-haus-on-seatown-beach-for-community-wellness?recruited_by_id=fc32e0e0-ce37-11ee-8a4c-afad2b4b0d2b&recruiter=1331337252
+- Saunasto page: https://saunasto.com/united-kingdom/seaside-sauna-haus/
+
+My name is Sarah, and I am a lifelong resident of Dorset, deeply connected to our stunning coastline. I've been hosting Seaside Sauna Haus at Seatown for the last 3 years and am so proud of what we have created here in our little community.
+We are very privileged in West Dorset to have such natural
+
+### Skuna Sauna
+
+- City: London
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 51.5078, -0.0227
+- Website: https://www.skunasauna.com
+- Saunasto page: https://saunasto.com/united-kingdom/skuna-sauna/
+
+Skuna Boats - Floating Sauna Experience in Canary Wharf, London.
+
+### The Bath House - Banya London
+
+- City: London
+- Type: bathhouse
+- Heat: steam
+- Access: public
+- Coordinates: 51.4980, -0.1467
+- Website: http://banyalondon.co.uk
+- Saunasto page: https://saunasto.com/united-kingdom/the-bath-house-banya-london/
+
+The Bath House is not an ordinary spa. It’s about the hot and the cold. Contemporary thermal therapy with the magic of banya. Flow from our oak-lined banya to icy plunge pool. Weave in traditional rituals, organic treatments, scrubs, massage, aromatic leaves, and home-cooked food and drink. Banya is
+
+### The Forest Sauna
+
+- City: Coldharbour
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 50.7073, -2.1390
+- Website: https://www.theforestsauna.com
+- Saunasto page: https://saunasto.com/united-kingdom/the-forest-sauna/
+
+The Forest Sauna and Plunge in Wareham, Dorset, offers space to relax and unwind in nature, whilst enjoying the countless benefits of traditional wood-fired sauna and cold water therapy.
+
+### Thermae Bath Spa
+
+- City: Bath
+- Type: thermal bath
+- Access: public
+- Coordinates: 51.3810, -2.3600
+- Website: https://thermaebathspa.com
+- Saunasto page: https://saunasto.com/united-kingdom/thermae-bath-spa/
+
+The only natural thermal spa in Britain you can bathe in, drawing 1.17 million litres a day at 46C from the same source the Romans tapped for Aquae Sulis in AD 70. Rooftop pool with Bath Abbey views, indoor Minerva Bath, and a wellness suite with steam rooms and Aufguss-style infusions.
+
+### Wildwater Sauna
+
+- City: St Davids
+- Type: sauna
+- Heat: wood-fired
+- Access: booking required
+- Coordinates: 51.8814, -5.2680
+- Website: https://www.wildwatersauna.com
+- Saunasto page: https://saunasto.com/united-kingdom/wildwater-sauna/
+
+Wood-fired luxury mobile sauna touring the Pembrokeshire Coast National Park (Newgale, Whitesands, Porthclais, Nolton Haven, Broad Haven, Newport). Founded by Scott Chalmers and Richard Lynch. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+---
+
+## 🇰🇷 South Korea  (8 picks)
+
+Korea has been bathing publicly for at least seven hundred years. The modern jjimjilbang fuses the older mogyoktang (public bath) with sauna rooms borrowed from Japanese and Finnish traditions, then layers in food courts, sleep floors, PC bangs, and karaoke. It is the closest thing in the world to a public living room.
+
+### Junggok-dong Siloam Sauna
+
+- City: Seoul
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 37.5633, 127.0870
+- Website: https://grrrltraveler.com/siloam-spa/
+- Saunasto page: https://saunasto.com/south-korea/junggok-dong-siloam-sauna/
+
+One of Seoul's most famous 24-hour jjimjilbangs. Traditional Korean bathhouse experience.
+
+### Olympia Sauna
+
+- City: Seoul
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 37.4960, 127.0329
+- Website: https://blog.naver.com/hantolry
+- Saunasto page: https://saunasto.com/south-korea/olympia-sauna/
+
+### Onsen Anguk
+
+- City: Seoul
+- Type: hot spring
+- Heat: steam
+- Access: public
+- Coordinates: 37.5768, 126.9858
+- Saunasto page: https://saunasto.com/south-korea/onsen-anguk/
+
+A natural hot spring in Seoul, KR. Features a steam bath.
+
+### O’reve Hot Spring & Spa
+
+- City: 서귀포시
+- Type: hot spring
+- Heat: steam
+- Access: public
+- Coordinates: 33.2430, 126.5367
+- Saunasto page: https://saunasto.com/south-korea/o-reve-hot-spring-spa/
+
+A natural hot spring in 서귀포시, KR. Features a steam bath.
+
+### Sauna The Four Seasons Seoul
+
+- City: Jong-no-gu
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 37.5706, 126.9755
+- Website: http://fourseasons.com
+- Saunasto page: https://saunasto.com/south-korea/sauna-the-four-seasons-seoul/
+
+A dedicated sauna venue in Jong-no-gu, KR.
+
+### 도련 황토 숯가마 찜질방
+
+- City: 제주시
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 33.5052, 126.5907
+- Website: http://seawaterpark.com/
+- Saunasto page: https://saunasto.com/south-korea/venue-a4891f04/
+
+A dedicated sauna venue in 제주시, KR. Features a steam bath.
+
+### 용천스파랜드 찜질방 (Yongcheon Spa Land Jjimjilbang)
+
+- City: 김해시
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 35.2617, 128.8681
+- Saunasto page: https://saunasto.com/south-korea/yongcheon-spa-land-jjimjilbang/
+
+A dedicated sauna venue in 김해시, KR. Features a steam bath.
+
+### 중앙해수랜드 찜질방
+
+- City: 부산광역시
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 35.1262, 129.1105
+- Website: https://m.blog.naver.com/hyehwa0056/221250699719
+- Saunasto page: https://saunasto.com/south-korea/venue-49372058/
+
+---
+
+## 🇷🇺 Russia  (8 picks)
+
+The banya is a high-temperature wet-steam ritual using birch or oak veniks (leaf bundles) to flagellate the body, drive blood to the skin, and exfoliate. It is not the same as a Finnish sauna and the people who do it the most will tell you so. It predates the Christianization of Russia.
+
+### Honey Banya Olgino
+
+- City: Saint Petersburg
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 59.9870, 30.1350
+- Website: https://www.new-east-archive.org/articles/show/11539/st-petersburg-guide-best-banya-sauna-steam-room-traditional-russian-history
+- Saunasto page: https://saunasto.com/russia/honey-banya-olgino/
+
+Seaside luxury banya built by international banya builder James Larkin. All-wooden lounge with open fire and panoramic windows. Ice massages and honey scrubs.
+
+### Krasnopresnenskie Bani
+
+- City: Moscow
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 55.7590, 37.5575
+- Website: https://kp-bani.ru
+- Saunasto page: https://saunasto.com/russia/krasnopresnenskie-bani/
+
+Built 1977-1980, won the Gosstroy State Prize. Sanduny's chief rival for best banya in Moscow. Two-storey redbrick modernist building.
+
+### Mytninskie Bani
+
+- City: Saint Petersburg
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 59.9560, 30.3280
+- Website: https://www.rbth.com/travel/2015/12/05/quintessentially_russian_experience_moscow_and_saint_petersburgs_best_banyas
+- Saunasto page: https://saunasto.com/russia/mytninskie-bani/
+
+Originally built for the penniless of Imperial Russia's capital — one of the first public bathhouses in St. Petersburg. Now renovated with luxury steam rooms.
+
+### Rzhevskie Bani
+
+- City: Moscow
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 55.7930, 37.6330
+- Website: https://www.seattletimes.com/nation-world/russias-baths-keep-communal-spirit-in-age-of-social-distancing/
+- Saunasto page: https://saunasto.com/russia/rzhevskie-bani/
+
+Originally opened 1888 near Rizhskiy Railway Station. One of Moscow's oldest continuously operating bathhouses with working-class heritage.
+
+### SAUNA.SPB.RU
+
+- City: Санкт-Петербург
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 59.9319, 30.3495
+- Website: http://sauna.spb.ru
+- Saunasto page: https://saunasto.com/russia/sauna-spb-ru/
+
+На Sauna.spb.ru вы найдете лучший выбор бань и саун Санкт-Петербурга! Удобный поиск по районам, ценам и услугам. Реальные отзывы, актуальные контакты и фотографии. Арендуйте баню или сауну прямо сейчас — наслаждайтесь качественным отдыхом в СПб!
+
+### Sanduny Sibir
+
+- City: Novosibirsk
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 55.0300, 82.9200
+- Website: https://sibir.sanduny.ru
+- Saunasto page: https://saunasto.com/russia/sanduny-sibir/
+
+The Siberian branch of legendary Moscow Sanduny, housed in a 1937 building (former City Bath No. 8). Known for unique soft aromatic steam.
+
+### Varshavskie Bani
+
+- City: Moscow
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 55.6920, 37.6250
+- Saunasto page: https://saunasto.com/russia/varshavskie-bani/
+
+Thoroughly restored historic banya in Moscow's south. Traditional Russian bathing culture with modern facilities.
+
+### Zhivica Banya
+
+- City: Moscow
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 55.7650, 37.6050
+- Website: https://banya-zhivica.ru/?lang=EN
+- Saunasto page: https://saunasto.com/russia/zhivica-banya/
+
+Handcrafted Karelian pine log cabin in central Moscow. Eight curated steam rituals including Altai Zhivica and Siberian spa programmes.
+
+---
+
+## 🇭🇺 Hungary  (7 picks)
+
+Hungarian thermal bath culture is older than Hungary. The Romans built Aquincum. The Ottomans built Király and Rudas. The Habsburgs built Széchenyi. The Hungarians inherited all of it and added a chess habit, a card-game habit, and a willingness to discuss philosophy from a 38-degree pool.
+
+### Egerszalok Salt Hill
+
+- City: Egerszalok
+- Type: thermal bath
+- Heat: wood-fired
+- Access: public
+- Coordinates: 47.8730, 20.3310
+- Website: https://www.hunguesthotels.hu/en/hotel/egerszalok/hunguest_saliris/wellness_saliris_thermal_spa/
+- Saunasto page: https://saunasto.com/hungary/egerszalok-salt-hill/
+
+Unique travertine salt hill formed by thermal water deposits, reminiscent of Pamukkale. Water at 65-68C.
+
+### Gellért Thermal Bath
+
+- City: Budapest
+- Type: thermal bath
+- Heat: steam
+- Access: public
+- Coordinates: 47.4861, 19.0528
+- Saunasto page: https://saunasto.com/hungary/gellert-thermal-bath/
+
+Art Nouveau thermal bath in Budapest opened in 1918. Famous wave pool and stunning architecture.
+
+### Király fürdő
+
+- City: Budapest
+- Type: hot spring
+- Heat: steam
+- Access: public
+- Coordinates: 47.5107, 19.0379
+- Website: https://www.kiralyfurdo.hu/
+- Saunasto page: https://saunasto.com/hungary/kir-ly-furd/
+
+### Lake Hévíz
+
+- City: Hévíz
+- Type: thermal bath
+- Heat: steam
+- Access: public
+- Coordinates: 46.7862, 17.1884
+- Saunasto page: https://saunasto.com/hungary/lake-hev-z/
+
+The largest natural thermal lake in Europe. Year-round bathing at 23-36°C surrounded by water lilies.
+
+### Rudas Ivócsarnok
+
+- Type: hot spring
+- Heat: steam
+- Access: public
+- Coordinates: 47.4898, 19.0467
+- Saunasto page: https://saunasto.com/hungary/rudas-iv-csarnok/
+
+### Sauna Bivak
+
+- City: Nagymaros
+- Type: sauna
+- Heat: wood-fired
+- Access: booking required
+- Coordinates: 47.7867, 18.9519
+- Website: https://www.bivak.io
+- Saunasto page: https://saunasto.com/hungary/sauna-bivak/
+
+Mobile sauna built entirely from cross-laminated timber (CLT) by Budapest architecture practice Bivak; primary deployment on the Danube at Nagymaros, ~50km north of Budapest. Charred-pine exterior, linseed-oil finish, full-glass facade. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+### Széchenyi Thermal Bath
+
+- City: Budapest
+- Type: thermal bath
+- Heat: steam
+- Access: public
+- Coordinates: 47.5184, 19.0825
+- Website: https://www.szechenyibath.hu/saunas-and-steam-rooms
+- Saunasto page: https://saunasto.com/hungary/szechenyi-thermal-bath/
+
+The largest medicinal bath in Europe, built in 1913. 18 pools including outdoor pools with chess-playing bathers. Iconic Budapest landmark.
+
+---
+
+## 🇦🇹 Austria  (6 picks)
+
+The Austrian thermal tradition shares the German one but trades urbanity for altitude. Aufguss is here. Naked is here. The towel rule is here. What's added: an alpine view from the warm pool, a wooden chalet vocabulary, and a willingness to spend three hours doing nothing but moving between temperatures.
+
+### Avita Therme
+
+- City: Bad Tatzmannsdorf
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 47.3365, 16.2231
+- Website: https://www.avita.at/therme/avita-therme-burgenland.html
+- Saunasto page: https://saunasto.com/austria/avita-therme/
+
+Die Therme Burgenland ►Wellness, Exklusivität und Lifestyle ✔Thermalwasser ✔Sauna ✔Day Spa ✔Naturbadeteich ✔Spa-Behandlungen ✔großer Außenbereich
+
+### Hotel Jungbrunn
+
+- City: Tannheim
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 47.5067, 10.5142
+- Website: https://www.jungbrunn.at
+- Saunasto page: https://saunasto.com/austria/hotel-jungbrunn/
+
+The 3D sauna at Jungbrunn introduces an architectural rarity in sauna design: curved, biomorphic geometry expressed in innovatively produced solid Swiss pine. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+### Silvretta Therme Ischgl
+
+- City: Ischgl
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 47.0135, 10.2885
+- Saunasto page: https://saunasto.com/austria/silvretta-therme-ischgl/
+
+### Spa Therme Blumau Betriebs GmbH
+
+- City: Bad Blumau
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 47.1154, 16.0531
+- Website: http://www.blumau.com
+- Saunasto page: https://saunasto.com/austria/spa-therme-blumau-betriebs-gmbh/
+
+Unendlich Lebensfreude, Freiraum und Genuss im größten bewohnbaren Gesamtkunstwerk, gestaltet von Friedensreich Hundertwasser. Farbenfroh und fröhlich. Eintauchen in die märchenhafte Welt des Wassers. Sanft getragen von der einzigartigen Vulkania® Heilquelle. Refugien für zwei. Vertrautes neu entdec
+
+### Therme Loipersdorf
+
+- City: Bad Loipersdorf
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 46.9842, 16.1120
+- Website: https://www.therme.at/
+- Saunasto page: https://saunasto.com/austria/therme-loipersdorf/
+
+Wir haben alles, was du zur Erholung brauchst. Buche deine Auszeit in der Steiermark und entdecke unsere drei Thermenbereiche in der Urlaubsregion Loipersdorf.
+
+### Therme Wien
+
+- City: Wien
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 48.1430, 16.4010
+- Website: https://www.thermewien.at
+- Saunasto page: https://saunasto.com/austria/therme-wien/
+
+Ihre Auszeit vom Alltag in der Therme Wien. Genießen Sie Entspannung und Erholung in Wiens schönster Wellness-Oase.
+
+---
+
+## 🇨🇦 Canada  (6 picks)
+
+### Banff Upper Hot Springs
+
+- City: Banff
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 51.1469, -115.5614
+- Website: https://www.hotsprings.ca/banff-upper-hot-springs
+- Saunasto page: https://saunasto.com/canada/banff-upper-hot-springs/
+
+Alpine hot pool at the southern edge of Banff National Park. Sulfurous mineral water, vintage 1930s bathhouse, panoramic Rocky Mountain views.
+
+### Banya No. 2 Richmond Hill
+
+- City: Richmond Hill
+- Type: bathhouse
+- Heat: wood-fired
+- Access: public
+- Coordinates: 43.9473, -79.4559
+- Website: https://banyarichmondhill.ca
+- Saunasto page: https://saunasto.com/canada/banya-no-2-richmond-hill/
+
+Admission includes unlimited time until we close, unlimited self-serve teas, 3 towels, and 1 robe to use for your visit. Feel free to bring your own towels and robe if needed. Restaurant, bar, and any treatments, robes and towels are at an additional cost. We work on a first-come, first-serve basis.
+
+### HAVN Saunas
+
+- City: Victoria
+- Type: sauna
+- Heat: wood-fired
+- Access: booking required
+- Coordinates: 48.4232, -123.3691
+- Website: https://www.havnsaunas.com
+- Saunasto page: https://saunasto.com/canada/havn-saunas/
+
+Floating sauna barge at Ship Point in Victoria's Inner Harbour, founded by Nick Van Buren and Kurtis Vallee — successor to the iconic Steam Mystic sailboat sauna featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+### Liard River Hot Springs
+
+- City: Liard River
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 59.4242, -126.0996
+- Saunasto page: https://saunasto.com/canada/liard-river-hot-springs/
+
+Free, undeveloped boreal hot springs along the Alaska Highway. Hot mineral water flows through a series of natural pools surrounded by spruce forest.
+
+### Nimmo Bay Floating Sauna
+
+- City: Nimmo Bay
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 50.8333, -126.6500
+- Website: https://nimmobay.com
+- Saunasto page: https://saunasto.com/canada/nimmo-bay-floating-sauna/
+
+Positioned just above the tidal reach in BC's Great Bear Rainforest, the Nimmo Bay Floating Sauna is a wood-centred retreat at one of Canada's premier wilderness resorts. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+### South-Western Bathhouse and Tea Room
+
+- City: Mississauga
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 43.6252, -79.5657
+- Website: https://banya.ca/
+- Saunasto page: https://saunasto.com/canada/south-western-bathhouse-and-tea-room/
+
+Top Sauna and Steam Room in the GTA &#124; Mississauga Banya
+
+---
+
+## 🇨🇭 Switzerland  (5 picks)
+
+### Bogn Engiadina Scuol
+
+- City: Scuol
+- Type: thermal bath
+- Heat: wood-fired
+- Access: public
+- Coordinates: 46.7950, 10.2944
+- Website: https://www.bognengiadina.ch
+- Saunasto page: https://saunasto.com/switzerland/bogn-engiadina-scuol/
+
+Mineral-water thermal baths in the upper Engadine, fed by a 19°C carbonic spring. Roman-Irish bathing circuit + outdoor pools at 1,250m altitude.
+
+### Leukerbad Therme
+
+- City: Leukerbad
+- Type: thermal bath
+- Heat: wood-fired
+- Access: public
+- Coordinates: 46.3775, 7.6257
+- Website: http://www.leukerbad-therme.ch
+- Saunasto page: https://saunasto.com/switzerland/leukerbad-therme/
+
+Entdecken Sie Leukerbad an 365 Tagen im Jahr.
+
+### Sauna Lorrainebad
+
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 46.9596, 7.4426
+- Website: https://saunalorrainebad.ch/
+- Saunasto page: https://saunasto.com/switzerland/sauna-lorrainebad/
+
+Liebe Freund:innen der Sauna LorrainebadSauna-Hitze, kühle Aare und Menschen – schön war der Winter. Er hat für uns am 24. März geendet und wir machen im Lorrainebad dem Frühling und Sommer Platz. Die Bade-Saison startet Mitte Mai.Herzlichen Dank für die unvergesslichen Begegnungen. Wir sehen uns au
+
+### Tamina Therme
+
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 46.9999, 9.5047
+- Saunasto page: https://saunasto.com/switzerland/tamina-therme/
+
+### Therme Vals
+
+- City: Vals
+- Type: thermal bath
+- Heat: wood-fired
+- Access: public
+- Coordinates: 46.6224, 9.1813
+- Website: http://www.therme-vals.ch
+- Saunasto page: https://saunasto.com/switzerland/therme-vals/
+
+A dedicated sauna venue in Vals, CH. Features a steam bath.
+
+---
+
+## 🇪🇪 Estonia  (5 picks)
+
+### Jantsu talu suitsusaun ja kilesaun
+
+- Type: sauna
+- Heat: smoke
+- Access: public
+- Coordinates: 58.4176, 26.8848
+- Website: https://suitsusauna.ee/
+- Saunasto page: https://saunasto.com/estonia/jantsu-talu-suitsusaun-ja-kilesaun/
+
+Suitsusaun on ehe osa Eesti pärandist – rahulik paik lõõgastumiseks, tervise turgutamiseks ja looduslähedaseks elamuseks. Tule ja koge suitsusauna väge!
+
+### Kalma Saun
+
+- City: Tallinn
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 59.4438, 24.7377
+- Website: https://www.kalmasaun.ee/
+- Saunasto page: https://saunasto.com/estonia/kalma-saun/
+
+One of Tallinn's oldest public saunas, completed in 1928 in Kalamaja. Wood stove and steam saunas.
+
+### Pokumaa suitsusaun
+
+- Type: sauna
+- Heat: smoke
+- Access: public
+- Coordinates: 57.9145, 26.5829
+- Website: https://www.pokumaa.ee/
+- Saunasto page: https://saunasto.com/estonia/pokumaa-suitsusaun/
+
+Kõik mis puudutab ajalugu, hetkeolukorda ja muud vajalikku informatsiooni, on leitav just esilehe alamsakist.
+
+### Rangi Saun
+
+- City: Tallinn
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 59.4417, 24.7451
+- Saunasto page: https://saunasto.com/estonia/rangi-saun/
+
+Tallinn's only traditional smoke sauna, built with contemporary Estonian design in Nõmme.
+
+### Raua saun
+
+- City: Tallinn
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 59.4363, 24.7670
+- Website: http://rauasaun.ee/
+- Saunasto page: https://saunasto.com/estonia/raua-saun/
+
+Traditional public sauna in central Tallinn.
+
+---
+
+## 🇮🇸 Iceland  (5 picks)
+
+Iceland's thermal bathing tradition runs through the whole society. Every town has a public swimming pool with hot tubs (heitir pottar) where the country's politics gets decided. The destination lagoons (Blue Lagoon, Sky Lagoon, Myvatn Nature Baths, Secret Lagoon) are tourist-priced; the public pools are not.
+
+### Blue Lagoon
+
+- Type: hot spring
+- Heat: electric
+- Access: public
+- Coordinates: 63.8800, -22.4494
+- Saunasto page: https://saunasto.com/iceland/blue-lagoon/
+
+Iceland's most famous geothermal spa. Milky blue mineral-rich waters in a volcanic lava field.
+
+### Gamla Laugin - Secret Lagoon
+
+- City: Fludir
+- Type: hot spring
+- Heat: steam
+- Access: public
+- Coordinates: 64.1374, -20.3096
+- Website: https://secretlagoon.is
+- Saunasto page: https://saunasto.com/iceland/gamla-laugin-secret-lagoon/
+
+Large natural outdoor hot pool at 38-40°C year-round. One of Iceland's oldest swimming pools, dating to 1891.
+
+### Landmannalaugar
+
+- City: Highlands
+- Type: hot spring
+- Access: public
+- Coordinates: 63.9930, -19.0640
+- Website: https://guidetoiceland.is/travel-iceland/drive/landmannalaugar
+- Saunasto page: https://saunasto.com/iceland/landmannalaugar/
+
+Natural hot springs in rhyolite mountains. Warm stream at 36-40C where hot and cold waters merge.
+
+### Myvatn Nature Baths
+
+- City: Myvatn
+- Type: hot spring
+- Heat: steam
+- Access: public
+- Coordinates: 65.6325, -16.8481
+- Website: https://www.earthlagoon.is/
+- Saunasto page: https://saunasto.com/iceland/myvatn-nature-baths/
+
+Northern Iceland's answer to Blue Lagoon. Mineral-rich geothermal waters with views of volcanic landscapes.
+
+### Sky Lagoon
+
+- City: Reykjavik
+- Type: hot spring
+- Heat: electric
+- Access: public
+- Coordinates: 64.1105, -21.9319
+- Saunasto page: https://saunasto.com/iceland/sky-lagoon/
+
+Modern geothermal lagoon with infinity edge overlooking the ocean and a 7-step spa ritual.
+
+---
+
+## 🇱🇻 Latvia  (5 picks)
+
+### Meza SPA
+
+- City: Jurkalne
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 56.8410, 21.3560
+- Website: https://www.mezaspa.lv/
+- Saunasto page: https://saunasto.com/latvia/meza-spa/
+
+Rustic log cabin pirts in a forest clearing on the Kurzeme coastline, 30 minutes from dramatic Baltic sea cliffs.
+
+### Pirts Rozeni
+
+- City: Skulte
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 57.2810, 24.3540
+- Website: https://rozeni.lv/
+- Saunasto page: https://saunasto.com/latvia/pirts-rozeni/
+
+Traditional rural pirts on the Vidzeme coastline led by certified pirts master with 22+ years experience. Rituals with besoms, honey, and clay.
+
+### Pirts Skola Lielzemenes
+
+- City: Vecumnieki
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 56.6060, 24.2830
+- Website: https://www.lielzemenes.lv/
+- Saunasto page: https://saunasto.com/latvia/pirts-skola-lielzemenes/
+
+Latvia's pirts school where visitors learn to become a professional pirtnieks or enjoy a deeply traditional bathing experience.
+
+### Riga Floating Sauna
+
+- City: Riga
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 56.9580, 24.0970
+- Website: https://www.saunariga.lv/
+- Saunasto page: https://saunasto.com/latvia/riga-floating-sauna/
+
+Floating sauna on the Daugava River with panoramic Riga skyline views. Essential oils, birch whisks, and river plunge.
+
+### Ziedlejas Wellness Resort
+
+- City: Krimulda
+- Type: sauna
+- Heat: smoke
+- Access: public
+- Coordinates: 57.1600, 24.8300
+- Website: https://ziedlejas.lv/
+- Saunasto page: https://saunasto.com/latvia/ziedlejas-wellness-resort/
+
+Premier wellness resort in Gauja National Park with Glass Pirts, Smoke Pirts, and Wool Pirts. Home to the Latvian Pirts School.
+
+---
+
+## 🇱🇹 Lithuania  (4 picks)
+
+### Amber Sauna Palanga
+
+- City: Palanga
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 55.8850, 21.1220
+- Website: https://atostoguparkaspalanga.lt-hotels.com/
+- Saunasto page: https://saunasto.com/lithuania/amber-sauna-palanga/
+
+World's first amber sauna built with three tonnes of Baltic amber. Treatments incorporate amber oil, powder, and stones.
+
+### Druskininkai Sauna Complex
+
+- City: Druskininkai
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 54.0180, 23.9720
+- Website: https://www.akvapark.lt/
+- Saunasto page: https://saunasto.com/lithuania/druskininkai-sauna-complex/
+
+Over 19 themed saunas including herbal, salt, and infrared variants as part of Lithuania's most famous spa town.
+
+### Perkunijos Pirtis
+
+- City: Kaunas
+- Type: sauna
+- Heat: smoke
+- Access: public
+- Coordinates: 54.8860, 23.9610
+- Website: https://www.perkunijoserdve.lt/
+- Saunasto page: https://saunasto.com/lithuania/perkunijos-pirtis/
+
+Kaunas's most celebrated sauna with a large pirtis and a traditional smoke sauna. Professional sauna masters lead Lithuanian pirtis sessions.
+
+### Pilaites Maluno Pirtys
+
+- City: Vilnius
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 54.7170, 25.1870
+- Website: https://pilaitesmalunopirtys.lt/
+- Saunasto page: https://saunasto.com/lithuania/pilaites-maluno-pirtys/
+
+Three traditional bathhouses along the Sudervele stream near a restored 1923 windmill. Surrounded by forest, pond, and river.
+
+---
+
+## 🇮🇹 Italy  (3 picks)
+
+### Cascate del Mulino
+
+- City: Saturnia
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 42.6482, 11.5128
+- Website: https://www.cascate-del-mulino.info
+- Saunasto page: https://saunasto.com/italy/cascate-del-mulino/
+
+Free, open-air thermal cascade pouring 37.5°C sulfurous water into a series of travertine pools. One of Italy's most photographed natural hot springs; open 24h, no entry fee. Walking distance from Terme di Saturnia.
+
+### Terme Libere di Petriolo
+
+- City: Monticiano
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 43.0797, 11.2998
+- Saunasto page: https://saunasto.com/italy/terme-libere-di-petriolo/
+
+Free, open-air wild thermal baths along the Farma river at Bagni di Petriolo. Several stone pools fed by a 43°C sulfurous spring; open 24h, no entry fee. Site has been used since Etruscan and Roman times.
+
+### Thermal Spring of Bulicame
+
+- City: Viterbo
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 42.4204, 12.0730
+- Website: https://www.termediviterbo.it
+- Saunasto page: https://saunasto.com/italy/thermal-spring-of-bulicame/
+
+Free hot springs mentioned in Dante's Divine Comedy. Used since Etruscan and Roman times.
+
+---
+
+## 🇳🇴 Norway  (3 picks)
+
+### SALT Sauna
+
+- City: Oslo
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 59.9065, 10.7465
+- Website: http://salted.no
+- Saunasto page: https://saunasto.com/norway/salt-sauna/
+
+Floating sauna and cultural arena on Oslo's waterfront. Arctic-inspired architecture.
+
+### Soria Moria
+
+- City: Dalen
+- Heat: electric
+- Access: public
+- Coordinates: 59.4423, 8.0173
+- Saunasto page: https://saunasto.com/norway/soria-moria/
+
+Designed by Feste Landscape / Architecture, the structure's sculptural roofline takes its geometry from the surrounding mountains and is finished with locally-sourced wood shingles. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+### Trevarefabrikken
+
+- City: Henningsvær
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 68.1576, 14.2034
+- Website: https://www.trevare.no
+- Saunasto page: https://saunasto.com/norway/trevarefabrikken/
+
+Trevarefabrikken's ocean-view sauna on Henningsvær — the main island of a fishing village in Lofoten — repurposes an old factory into one of Norway's most cinematic wellness destinations. Featured in CN Traveller's 'World's Most Beautiful Saunas'.
+
+---
+
+## 🇬🇷 Greece  (2 picks)
+
+The thermal-bath culture in Greece is older than Greece. Hippocrates wrote about Edipsos. The Romans expanded the thermal infrastructure across Asia Minor and the Peloponnese. The modern Greek thermal town keeps the same waters running through different bath buildings every two centuries.
+
+### Banya Athens Thissio
+
+- City: Athens
+- Type: sauna
+- Heat: electric
+- Access: public
+- Coordinates: 37.9782, 23.7206
+- Website: https://www.banya.gr/
+- Saunasto page: https://saunasto.com/greece/banya-athens-thissio/
+
+Athens premier sauna and wellness destination. Features an electric sauna with powerful loyly and ice bath for contrast therapy. Open daily from 10am, serving the Greek capitals growing sauna community.
+
+### Thermopylae Hot Springs
+
+- City: Thermopylae
+- Type: thermal bath
+- Heat: steam
+- Access: public
+- Coordinates: 38.8048, 22.5374
+- Website: https://theorangebackpack.nl/en/greece/hot-springs-thermopylae-map/
+- Saunasto page: https://saunasto.com/greece/thermopylae-hot-springs/
+
+Free natural hot springs at the historic site of the Battle of Thermopylae. The name means 'hot gates.' Waters at 40°C.
+
+---
+
+## 🇲🇽 Mexico  (2 picks)
+
+### Grutas de Tolantongo
+
+- City: Cardonal
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 20.6500, -99.0444
+- Website: https://grutastolantongo.com.mx
+- Saunasto page: https://saunasto.com/mexico/grutas-de-tolantongo/
+
+Turquoise mineral river with cliffside infinity pools, a hot-water cave, and a thermal grotto in central Mexico's Hidalgo state.
+
+### Hierve el Agua
+
+- City: San Lorenzo Albarradas
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 16.8651, -96.2773
+- Saunasto page: https://saunasto.com/mexico/hierve-el-agua/
+
+Petrified mineral waterfall + spring-fed pools at the cliff edge of a Oaxacan canyon. Calcium-saturated water creates the 'frozen' cascade effect.
+
+---
+
+## 🇹🇭 Thailand  (2 picks)
+
+### Dudka Bar & Sauna
+
+- City: Ko Pha Ngan
+- Type: sauna
+- Heat: wood-fired
+- Access: public
+- Coordinates: 9.7685, 99.9628
+- Website: https://www.instagram.com/dudka_bar_sauna
+- Saunasto page: https://saunasto.com/thailand/dudka-bar-sauna/
+
+A unique wood-fired sauna and bar on Ko Pha Ngan, Thailand. Wood stove-heated löyly with an ice bath for contrast therapy — authentic Finnish sauna culture meets tropical island life. One of the most unexpected and beloved sauna experiences in the world.
+
+### The Dome Sauna
+
+- City: Ko Pha Ngan
+- Type: sauna
+- Heat: steam
+- Access: public
+- Coordinates: 9.7895, 99.9862
+- Website: https://phanganlife.com/catalog/health-wellness/saunas-baths/the-dome-sauna/
+- Saunasto page: https://saunasto.com/thailand/the-dome-sauna/
+
+A distinctive dome-shaped steam sauna on Ko Pha Ngan. Unique architectural design housing an authentic steam room experience on Thailand's wellness island.
+
+---
+
+## 🇹🇷 Turkey  (2 picks)
+
+### Bursa Eski Kaplica
+
+- City: Bursa
+- Type: thermal bath
+- Heat: steam
+- Access: public
+- Coordinates: 40.1850, 29.0690
+- Website: https://www.romeartlover.it/Bursa3.html
+- Saunasto page: https://saunasto.com/turkey/bursa-eski-kaplica/
+
+Roman/Byzantine bath rebuilt by Ottoman Sultan Murad I in the 14th century. Water at 78C. One of Turkey's oldest continuously used baths.
+
+### Pamukkale Travertenleri
+
+- City: Pamukkale
+- Type: thermal bath
+- Heat: steam
+- Access: public
+- Coordinates: 37.9245, 29.1190
+- Website: https://www.pamukkale.gov.tr/tr/Pamukkale-Travertenleri
+- Saunasto page: https://saunasto.com/turkey/pamukkale-travertenleri/
+
+---
+
+## 🇦🇷 Argentina  (1 picks)
+
+### Termas Cacheuta
+
+- City: Cacheuta
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: -33.0167, -69.1167
+- Website: https://termascacheuta.com
+- Saunasto page: https://saunasto.com/argentina/termas-cacheuta/
+
+Thermal park in the Andes foothills west of Mendoza. Outdoor pools at varying temperatures fed by sulfurous mineral springs.
+
+---
+
+## 🇨🇱 Chile  (1 picks)
+
+### Termas Geométricas
+
+- City: Coñaripe
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: -39.5667, -71.8500
+- Website: https://www.termasgeometricas.cl
+- Saunasto page: https://saunasto.com/chile/termas-geometricas/
+
+17 slate-and-wood pools by architect Germán del Sol, set along a forest gorge in southern Chile near Villarrica.
+
+---
+
+## 🇨🇴 Colombia  (1 picks)
+
+### Termales Santa Rosa de Cabal
+
+- City: Santa Rosa de Cabal
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 4.8358, -75.5544
+- Website: https://www.termales.com.co
+- Saunasto page: https://saunasto.com/colombia/termales-santa-rosa-de-cabal/
+
+Thermal hot-spring resort in the Colombian coffee axis with a cascade-fed pool and forest setting.
+
+---
+
+## 🇨🇷 Costa Rica  (1 picks)
+
+### Tabacón Hot Springs
+
+- City: La Fortuna
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: 10.4895, -84.7186
+- Website: https://www.tabacon.com
+- Saunasto page: https://saunasto.com/costa-rica/tabac-n-hot-springs/
+
+River-fed thermal cascade and pools heated by Arenal Volcano. The hot water flows along a natural creek through tropical forest.
+
+---
+
+## 🇮🇩 Indonesia  (1 picks)
+
+### Banjar Hot Springs
+
+- City: Banjar
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: -8.1900, 115.0544
+- Saunasto page: https://saunasto.com/indonesia/banjar-hot-springs/
+
+Three-tier carved-stone pools with hot mineral water in northern Bali. Buddhist/Hindu mythological dragon spouts. Day-use, low entry fee.
+
+---
+
+## 🇵🇪 Peru  (1 picks)
+
+### Aguas Calientes Banos
+
+- City: Aguas Calientes
+- Type: hot spring
+- Heat: wood-fired
+- Access: public
+- Coordinates: -13.1556, -72.5258
+- Saunasto page: https://saunasto.com/peru/aguas-calientes-banos/
+
+Thermal baths near the train station for Machu Picchu. Hot mineral pools at the foot of the Vilcanota mountains.
+
+---
+
+## License
+
+Editorial copy and selection are © Saunasto. Underlying venue facts (name, location, hours) are not copyrightable. Cite Saunasto when quoting editorial prose. No tracking, no ads, no third-party data sharing.

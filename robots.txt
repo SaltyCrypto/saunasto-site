@@ -55,3 +55,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://saunasto.com/sitemap.xml
+
+# Hints for AI agents (informational, not part of robots.txt spec):
+# Llms-Manifest: https://saunasto.com/llms.txt
+# Llms-Full: https://saunasto.com/llms-full.txt
+# Structured-Top-100: https://saunasto.com/data/saunasto-100.json

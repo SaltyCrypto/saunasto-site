@@ -1,0 +1,2014 @@
+{
+  "name": "The Saunasto 100",
+  "edition": "Inaugural · Spring 2026",
+  "generated": "2026-05-07",
+  "url": "https://saunasto.com/the-100/",
+  "license": "Editorial selection © Saunasto. Venue facts are public-domain.",
+  "publisher": {
+    "name": "Saunasto",
+    "url": "https://saunasto.com"
+  },
+  "count": 100,
+  "venues": [
+    {
+      "rank": 1,
+      "name": "Kulttuurisauna",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1791,
+        "lng": 24.9559
+      },
+      "url": "https://saunasto.com/finland/kulttuurisauna/",
+      "website": "https://www.kulttuurisauna.fi",
+      "description": "Wood-fired public sauna at Hakaniemenranta in Helsinki, designed by architects Tuomas Toivonen and Nene Tsuboi, opened 2013. Two saunas (men's + women's), cold dip in the Baltic, no booking, eco-architecture."
+    },
+    {
+      "rank": 2,
+      "name": "Seven Star Smoke Sauna at Isokenkäisten Klubi",
+      "city": "Kuusamo",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "smoke",
+      "access": "public",
+      "coordinates": {
+        "lat": 66.1014428621033,
+        "lng": 29.8372353296387
+      },
+      "url": "https://saunasto.com/finland/seven-star-smoke-sauna-at-isokenkaisten-klubi/",
+      "website": "https://www.ikk.fi/en/saunas/",
+      "description": "The gentle warmth and scent of the Seven Star Smoke Sauna at Isokenkäisten Klubi in Kuusamo leaves you with an ever-lasting memory. \nThe sauna is heated with dry birch logs that come from our own forest. Heating the smoke sauna is not a job for a busy man, it takes hours of careful heating to get the temperature right. Our sauna master takes care of heating the sauna, and he also knows how to make the traditional, fragrant birch whisks. Bathing in an authentic smoke sauna is a unique experience."
+    },
+    {
+      "rank": 3,
+      "name": "Dudka Bar & Sauna",
+      "city": "Ko Pha Ngan",
+      "country": {
+        "code": "TH",
+        "name": "Thailand",
+        "flag": "🇹🇭"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 9.7684869,
+        "lng": 99.9627995
+      },
+      "url": "https://saunasto.com/thailand/dudka-bar-sauna/",
+      "website": "https://www.instagram.com/dudka_bar_sauna",
+      "description": "A unique wood-fired sauna and bar on Ko Pha Ngan, Thailand. Wood stove-heated löyly with an ice bath for contrast therapy — authentic Finnish sauna culture meets tropical island life. One of the most unexpected and beloved sauna experiences in the world."
+    },
+    {
+      "rank": 4,
+      "name": "Sauna Hermanni – Hakaniemenranta",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1780345,
+        "lng": 24.9632513
+      },
+      "url": "https://saunasto.com/finland/sauna-hermanni-hakaniemenranta/",
+      "website": null,
+      "description": "A cherished traditional public sauna in Helsinki's Hakaniemi district. Wood-heated löyly, authentic Finnish bathing culture, and a loyal local community. One of Helsinki's last remaining neighborhood public saunas."
+    },
+    {
+      "rank": 5,
+      "name": "Vabali Spa Berlin",
+      "city": "Berlin",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 52.52760251193211,
+        "lng": 13.360555171966553
+      },
+      "url": "https://saunasto.com/germany/vabali-spa-berlin/",
+      "website": "https://www.vabali.de/en/berlin/",
+      "description": "Premium Balinese-inspired sauna and wellness complex near Berlin Hauptbahnhof. 10+ themed saunas, outdoor pools, relaxation gardens. One of Germany's best."
+    },
+    {
+      "rank": 6,
+      "name": "Kusatsu Onsen",
+      "city": "Kusatsu",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 36.6208871,
+        "lng": 138.5973947
+      },
+      "url": "https://saunasto.com/japan/kusatsu-onsen/",
+      "website": null,
+      "description": "Japan's #1 ranked onsen for 15 consecutive years. Famous yubatake (hot water field) in the town center. Strong sulfur-rich waters."
+    },
+    {
+      "rank": 7,
+      "name": "Beppu Onsen",
+      "city": "Beppu",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 33.3156585,
+        "lng": 131.4740622
+      },
+      "url": "https://saunasto.com/japan/beppu-onsen/",
+      "website": null,
+      "description": "Over 2,000 hot springs in one city — the most of any city in the world. Features mud baths, sand baths, steam baths, and medicinal baths."
+    },
+    {
+      "rank": 8,
+      "name": "Avita Therme",
+      "city": "Bad Tatzmannsdorf",
+      "country": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.3365101,
+        "lng": 16.223148
+      },
+      "url": "https://saunasto.com/austria/avita-therme/",
+      "website": "https://www.avita.at/therme/avita-therme-burgenland.html",
+      "description": "Die Therme Burgenland ►Wellness, Exklusivität und Lifestyle ✔Thermalwasser ✔Sauna ✔Day Spa ✔Naturbadeteich ✔Spa-Behandlungen ✔großer Außenbereich"
+    },
+    {
+      "rank": 9,
+      "name": "Jantsu talu suitsusaun ja kilesaun",
+      "city": null,
+      "country": {
+        "code": "EE",
+        "name": "Estonia",
+        "flag": "🇪🇪"
+      },
+      "type": "sauna",
+      "heat": "smoke",
+      "access": "public",
+      "coordinates": {
+        "lat": 58.4176496,
+        "lng": 26.8847889
+      },
+      "url": "https://saunasto.com/estonia/jantsu-talu-suitsusaun-ja-kilesaun/",
+      "website": "https://suitsusauna.ee/",
+      "description": "Suitsusaun on ehe osa Eesti pärandist – rahulik paik lõõgastumiseks, tervise turgutamiseks ja looduslähedaseks elamuseks. Tule ja koge suitsusauna väge!"
+    },
+    {
+      "rank": 10,
+      "name": "Löyly",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1521542,
+        "lng": 24.9304213
+      },
+      "url": "https://saunasto.com/finland/loyly/",
+      "website": "https://www.loylyhelsinki.fi/en",
+      "description": null
+    },
+    {
+      "rank": 11,
+      "name": "Therme Erding",
+      "city": "Erding",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 48.29089283736736,
+        "lng": 11.887921798936832
+      },
+      "url": "https://saunasto.com/germany/therme-erding/",
+      "website": "https://www.therme-erding.de",
+      "description": null
+    },
+    {
+      "rank": 12,
+      "name": "Dogo Onsen",
+      "city": "Matsuyama",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 33.8521,
+        "lng": 132.7864
+      },
+      "url": "https://saunasto.com/japan/dogo-onsen/",
+      "website": "https://dogo.jp/en",
+      "description": "The oldest onsen in Japan, in continuous use since the 6th century. The 1894 Dogo Onsen Honkan is a Tangible Cultural Property and the inspiration for the bath house in Spirited Away."
+    },
+    {
+      "rank": 13,
+      "name": "Hotel Jungbrunn",
+      "city": "Tannheim",
+      "country": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.5067,
+        "lng": 10.5142
+      },
+      "url": "https://saunasto.com/austria/hotel-jungbrunn/",
+      "website": "https://www.jungbrunn.at",
+      "description": "The 3D sauna at Jungbrunn introduces an architectural rarity in sauna design: curved, biomorphic geometry expressed in innovatively produced solid Swiss pine. Featured in CN Traveller's 'World's Most Beautiful Saunas'."
+    },
+    {
+      "rank": 14,
+      "name": "Pokumaa suitsusaun",
+      "city": null,
+      "country": {
+        "code": "EE",
+        "name": "Estonia",
+        "flag": "🇪🇪"
+      },
+      "type": "sauna",
+      "heat": "smoke",
+      "access": "public",
+      "coordinates": {
+        "lat": 57.9145071,
+        "lng": 26.5829128
+      },
+      "url": "https://saunasto.com/estonia/pokumaa-suitsusaun/",
+      "website": "https://www.pokumaa.ee/",
+      "description": "Kõik mis puudutab ajalugu, hetkeolukorda ja muud vajalikku informatsiooni, on leitav just esilehe alamsakist."
+    },
+    {
+      "rank": 15,
+      "name": "Saunalautta M/S Löyly",
+      "city": "Jyväskylä",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 62.236775606423755,
+        "lng": 25.754021484173897
+      },
+      "url": "https://saunasto.com/finland/saunalautta-m-s-loyly/",
+      "website": "http://www.saunalautta.fi",
+      "description": null
+    },
+    {
+      "rank": 16,
+      "name": "Löyly Helsinki",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.152397,
+        "lng": 24.929792
+      },
+      "url": "https://saunasto.com/finland/loyly-helsinki/",
+      "website": null,
+      "description": null
+    },
+    {
+      "rank": 17,
+      "name": "Honey Banya Olgino",
+      "city": "Saint Petersburg",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 59.987,
+        "lng": 30.135
+      },
+      "url": "https://saunasto.com/russia/honey-banya-olgino/",
+      "website": "https://www.new-east-archive.org/articles/show/11539/st-petersburg-guide-best-banya-sauna-steam-room-traditional-russian-history",
+      "description": "Seaside luxury banya built by international banya builder James Larkin. All-wooden lounge with open fire and panoramic windows. Ice massages and honey scrubs."
+    },
+    {
+      "rank": 18,
+      "name": "Vabali Spa Düsseldorf",
+      "city": "Düsseldorf",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 51.1825569,
+        "lng": 6.9111903
+      },
+      "url": "https://saunasto.com/germany/vabali-spa-dusseldorf/",
+      "website": "https://www.vabali.de/en/duesseldorf/",
+      "description": "Vabali Spa is a premium day spa and sauna complex offering a wide range of saunas, steam baths, and relaxation areas in a Balinese-inspired setting. Features multiple themed saunas, outdoor pools, and restaurant."
+    },
+    {
+      "rank": 19,
+      "name": "Kurokawa Onsen",
+      "city": "Minamioguni",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "wood-fired",
+      "access": "booking required",
+      "coordinates": {
+        "lat": 33.0822,
+        "lng": 131.1311
+      },
+      "url": "https://saunasto.com/japan/kurokawa-onsen/",
+      "website": "https://www.kurokawaonsen.or.jp/eng_new/",
+      "description": "Famously authentic mountain onsen town in the Aso highlands. The 28 ryokan share a rotenburo (outdoor-bath) ticket so visitors can sample three baths in a single day."
+    },
+    {
+      "rank": 20,
+      "name": "Silvretta Therme Ischgl",
+      "city": "Ischgl",
+      "country": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.01345263621059,
+        "lng": 10.288513843764898
+      },
+      "url": "https://saunasto.com/austria/silvretta-therme-ischgl/",
+      "website": null,
+      "description": null
+    },
+    {
+      "rank": 21,
+      "name": "Rangi Saun",
+      "city": "Tallinn",
+      "country": {
+        "code": "EE",
+        "name": "Estonia",
+        "flag": "🇪🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 59.4417,
+        "lng": 24.7451
+      },
+      "url": "https://saunasto.com/estonia/rangi-saun/",
+      "website": null,
+      "description": "Tallinn's only traditional smoke sauna, built with contemporary Estonian design in Nõmme."
+    },
+    {
+      "rank": 22,
+      "name": "Tamina Therme",
+      "city": null,
+      "country": {
+        "code": "CH",
+        "name": "Switzerland",
+        "flag": "🇨🇭"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 46.999914626243125,
+        "lng": 9.504745955353847
+      },
+      "url": "https://saunasto.com/switzerland/tamina-therme/",
+      "website": null,
+      "description": null
+    },
+    {
+      "rank": 23,
+      "name": "Kovien löylyjen sauna",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "smoke",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.208705,
+        "lng": 25.141617
+      },
+      "url": "https://saunasto.com/finland/kovien-loylyjen-sauna/",
+      "website": "https://saunologia.fi/kaken-grilli-helsinki/",
+      "description": null
+    },
+    {
+      "rank": 24,
+      "name": "Krasnopresnenskie Bani",
+      "city": "Moscow",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 55.759,
+        "lng": 37.5575
+      },
+      "url": "https://saunasto.com/russia/krasnopresnenskie-bani/",
+      "website": "https://kp-bani.ru",
+      "description": "Built 1977-1980, won the Gosstroy State Prize. Sanduny's chief rival for best banya in Moscow. Two-storey redbrick modernist building."
+    },
+    {
+      "rank": 25,
+      "name": "Friedrichsbad",
+      "city": "Baden-Baden",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 48.7631195,
+        "lng": 8.242224
+      },
+      "url": "https://saunasto.com/germany/friedrichsbad/",
+      "website": null,
+      "description": "Renaissance bathing palace opened in 1877. A 17-step Roman-Irish bathing ritual in Baden-Baden."
+    },
+    {
+      "rank": 26,
+      "name": "Ginzan Onsen, Yamagata",
+      "city": null,
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 41.905126,
+        "lng": 140.648343
+      },
+      "url": "https://saunasto.com/japan/ginzan-onsen-yamagata/",
+      "website": null,
+      "description": null
+    },
+    {
+      "rank": 27,
+      "name": "Spa Therme Blumau Betriebs GmbH",
+      "city": "Bad Blumau",
+      "country": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.115441365806994,
+        "lng": 16.053089570988607
+      },
+      "url": "https://saunasto.com/austria/spa-therme-blumau-betriebs-gmbh/",
+      "website": "http://www.blumau.com",
+      "description": "Unendlich Lebensfreude, Freiraum und Genuss im größten bewohnbaren Gesamtkunstwerk, gestaltet von Friedensreich Hundertwasser. Farbenfroh und fröhlich. Eintauchen in die märchenhafte Welt des Wassers. Sanft getragen von der einzigartigen Vulkania® Heilquelle. Refugien für zwei. Vertrautes neu entdec"
+    },
+    {
+      "rank": 28,
+      "name": "Kalma Saun",
+      "city": "Tallinn",
+      "country": {
+        "code": "EE",
+        "name": "Estonia",
+        "flag": "🇪🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 59.443849,
+        "lng": 24.7376975
+      },
+      "url": "https://saunasto.com/estonia/kalma-saun/",
+      "website": "https://www.kalmasaun.ee/",
+      "description": "One of Tallinn's oldest public saunas, completed in 1928 in Kalamaja. Wood stove and steam saunas."
+    },
+    {
+      "rank": 29,
+      "name": "Sauna Lorrainebad",
+      "city": null,
+      "country": {
+        "code": "CH",
+        "name": "Switzerland",
+        "flag": "🇨🇭"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 46.9595838,
+        "lng": 7.4426353
+      },
+      "url": "https://saunasto.com/switzerland/sauna-lorrainebad/",
+      "website": "https://saunalorrainebad.ch/",
+      "description": "Liebe Freund:innen der Sauna LorrainebadSauna-Hitze, kühle Aare und Menschen – schön war der Winter. Er hat für uns am 24. März geendet und wir machen im Lorrainebad dem Frühling und Sommer Platz. Die Bade-Saison startet Mitte Mai.Herzlichen Dank für die unvergesslichen Begegnungen. Wir sehen uns au"
+    },
+    {
+      "rank": 30,
+      "name": "Löylymestarit sauna",
+      "city": "Tampere",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 61.4987791762728,
+        "lng": 23.77048515912917
+      },
+      "url": "https://saunasto.com/finland/loylymestarit-sauna/",
+      "website": null,
+      "description": null
+    },
+    {
+      "rank": 31,
+      "name": "Mytninskie Bani",
+      "city": "Saint Petersburg",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 59.956,
+        "lng": 30.328
+      },
+      "url": "https://saunasto.com/russia/mytninskie-bani/",
+      "website": "https://www.rbth.com/travel/2015/12/05/quintessentially_russian_experience_moscow_and_saint_petersburgs_best_banyas",
+      "description": "Originally built for the penniless of Imperial Russia's capital — one of the first public bathhouses in St. Petersburg. Now renovated with luxury steam rooms."
+    },
+    {
+      "rank": 32,
+      "name": "Caracalla Therme",
+      "city": "Baden-Baden",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "booking required",
+      "coordinates": {
+        "lat": 48.7638405,
+        "lng": 8.2447636
+      },
+      "url": "https://saunasto.com/germany/caracalla-therme/",
+      "website": "https://www.carasana.de/de/caracalla-therme.html",
+      "description": "Historic thermal bath in Baden-Baden with Roman-Irish bathing tradition, multiple saunas, and mineral water pools."
+    },
+    {
+      "rank": 33,
+      "name": "Hakuba Zekkei Sauna Rooftop",
+      "city": "Hakuba-mura",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "booking required",
+      "coordinates": {
+        "lat": 36.6909,
+        "lng": 137.867
+      },
+      "url": "https://saunasto.com/japan/hakuba-zekkei-sauna-rooftop/",
+      "website": "https://hakuba-zekkeisauna.com/",
+      "description": "Rooftop Finnish-style sauna atop Hakuba Highland Hotel with full panoramic view of the Northern Alps."
+    },
+    {
+      "rank": 34,
+      "name": "Therme Loipersdorf",
+      "city": "Bad Loipersdorf",
+      "country": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 46.9842254,
+        "lng": 16.11202
+      },
+      "url": "https://saunasto.com/austria/therme-loipersdorf/",
+      "website": "https://www.therme.at/",
+      "description": "Wir haben alles, was du zur Erholung brauchst. Buche deine Auszeit in der Steiermark und entdecke unsere drei Thermenbereiche in der Urlaubsregion Loipersdorf."
+    },
+    {
+      "rank": 35,
+      "name": "Raua saun",
+      "city": "Tallinn",
+      "country": {
+        "code": "EE",
+        "name": "Estonia",
+        "flag": "🇪🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 59.4362974,
+        "lng": 24.766957
+      },
+      "url": "https://saunasto.com/estonia/raua-saun/",
+      "website": "http://rauasaun.ee/",
+      "description": "Traditional public sauna in central Tallinn."
+    },
+    {
+      "rank": 36,
+      "name": "Löylykontti Kivenlahti",
+      "city": "Espoo",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1537461,
+        "lng": 24.626505
+      },
+      "url": "https://saunasto.com/finland/loylykontti-kivenlahti/",
+      "website": "https://www.loylykontti.fi/en",
+      "description": null
+    },
+    {
+      "rank": 37,
+      "name": "Rzhevskie Bani",
+      "city": "Moscow",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 55.793,
+        "lng": 37.633
+      },
+      "url": "https://saunasto.com/russia/rzhevskie-bani/",
+      "website": "https://www.seattletimes.com/nation-world/russias-baths-keep-communal-spirit-in-age-of-social-distancing/",
+      "description": "Originally opened 1888 near Rizhskiy Railway Station. One of Moscow's oldest continuously operating bathhouses with working-class heritage."
+    },
+    {
+      "rank": 38,
+      "name": "Liquidrom",
+      "city": "Berlin",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 52.5016063,
+        "lng": 13.3811909
+      },
+      "url": "https://saunasto.com/germany/liquidrom/",
+      "website": "https://www.liquidrom-berlin.de/",
+      "description": "Urban spa lounge in Kreuzberg with saltwater pool, underwater music, and multiple saunas. DJ sessions on weekends."
+    },
+    {
+      "rank": 39,
+      "name": "Noboribetsu Onsen",
+      "city": "Noboribetsu",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 42.4948853,
+        "lng": 141.1436714
+      },
+      "url": "https://saunasto.com/japan/noboribetsu-onsen/",
+      "website": null,
+      "description": "Hokkaido's most famous onsen with 9 types of thermal water. Jigokudani (Hell Valley) volcanic landscape."
+    },
+    {
+      "rank": 40,
+      "name": "Therme Wien",
+      "city": "Wien",
+      "country": {
+        "code": "AT",
+        "name": "Austria",
+        "flag": "🇦🇹"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 48.142981131623124,
+        "lng": 16.4010214805603
+      },
+      "url": "https://saunasto.com/austria/therme-wien/",
+      "website": "https://www.thermewien.at",
+      "description": "Ihre Auszeit vom Alltag in der Therme Wien. Genießen Sie Entspannung und Erholung in Wiens schönster Wellness-Oase."
+    },
+    {
+      "rank": 41,
+      "name": "Löylykontti Sörnäinen",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1823342,
+        "lng": 24.9633217
+      },
+      "url": "https://saunasto.com/finland/loylykontti-sornainen/",
+      "website": "https://www.loylykontti.fi/",
+      "description": null
+    },
+    {
+      "rank": 42,
+      "name": "Sanduny Sibir",
+      "city": "Novosibirsk",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 55.03,
+        "lng": 82.92
+      },
+      "url": "https://saunasto.com/russia/sanduny-sibir/",
+      "website": "https://sibir.sanduny.ru",
+      "description": "The Siberian branch of legendary Moscow Sanduny, housed in a 1937 building (former City Bath No. 8). Known for unique soft aromatic steam."
+    },
+    {
+      "rank": 43,
+      "name": "Adelindis Therme",
+      "city": "Bad Buchau",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 48.06251263555192,
+        "lng": 9.60475664440542
+      },
+      "url": "https://saunasto.com/germany/adelindis-therme/",
+      "website": "http://adelindistherme.de",
+      "description": "Die Thermen- und Saunalandschaft der Adelindis Therme hat geöffnet. Eine Voranmeldung ist nicht notwendig."
+    },
+    {
+      "rank": 44,
+      "name": "Hakone Onsen",
+      "city": "Hakone",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 35.228384,
+        "lng": 139.0978061
+      },
+      "url": "https://saunasto.com/japan/hakone-onsen/",
+      "website": "https://hakone-japan.com/things-to-do/onsen/onsen-for-a-day-visit/",
+      "description": "Mountain onsen town between Tokyo and Mount Fuji. Variety of mineral-rich springs, traditional ryokan inns, and lake views."
+    },
+    {
+      "rank": 45,
+      "name": "Löylykontti Matinkylä",
+      "city": "Espoo",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1497818,
+        "lng": 24.7532612
+      },
+      "url": "https://saunasto.com/finland/loylykontti-matinkyla/",
+      "website": "https://www.loylykontti.fi/en",
+      "description": null
+    },
+    {
+      "rank": 46,
+      "name": "Varshavskie Bani",
+      "city": "Moscow",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 55.692,
+        "lng": 37.625
+      },
+      "url": "https://saunasto.com/russia/varshavskie-bani/",
+      "website": null,
+      "description": "Thoroughly restored historic banya in Moscow's south. Traditional Russian bathing culture with modern facilities."
+    },
+    {
+      "rank": 47,
+      "name": "Aqualon Therme",
+      "city": "Bad Säckingen",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.5604886,
+        "lng": 7.9407169
+      },
+      "url": "https://saunasto.com/germany/aqualon-therme/",
+      "website": "https://www.aqualon.de/",
+      "description": "Wohlfühlzeit genießen, Körper & Geist in Balance bringen. Therme, Sauna, Wellness & Fitness im Aqualon für Ihre aktive & passive Erholung."
+    },
+    {
+      "rank": 48,
+      "name": "SAZAE",
+      "city": "Naoshima",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "hotel guests",
+      "coordinates": {
+        "lat": 34.457,
+        "lng": 134.015
+      },
+      "url": "https://saunasto.com/japan/sazae/",
+      "website": "https://benesse-artsite.jp/en/",
+      "description": "Designed by Kengo Kuma & Associates with interiors by Japanese sauna collective TTNE; named after the sazae, a conical sea snail native to Japan. Part of Naoshima's contemporary art programme. Featured in CN Traveller's 'World's Most Beautiful Saunas'."
+    },
+    {
+      "rank": 49,
+      "name": "Häkä Löylyt",
+      "city": "Nivala",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 63.94175559837943,
+        "lng": 24.817441782070723
+      },
+      "url": "https://saunasto.com/finland/haka-loylyt/",
+      "website": null,
+      "description": null
+    },
+    {
+      "rank": 50,
+      "name": "Zhivica Banya",
+      "city": "Moscow",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 55.765,
+        "lng": 37.605
+      },
+      "url": "https://saunasto.com/russia/zhivica-banya/",
+      "website": "https://banya-zhivica.ru/?lang=EN",
+      "description": "Handcrafted Karelian pine log cabin in central Moscow. Eight curated steam rituals including Altai Zhivica and Siberian spa programmes."
+    },
+    {
+      "rank": 51,
+      "name": "Bodensee-Therme Konstanz",
+      "city": "Konstanz",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.664076,
+        "lng": 9.208857
+      },
+      "url": "https://saunasto.com/germany/bodensee-therme-konstanz/",
+      "website": "https://www.therme-konstanz.de/",
+      "description": "Zeit für mich. Dem Alltag entfliehen, den Moment einfangen und gut zu sich selbst sein – darum geht es in der Bodensee-Therme Konstanz."
+    },
+    {
+      "rank": 52,
+      "name": "From P Hakuba",
+      "city": "Hakuba-mura",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 36.6975,
+        "lng": 137.862
+      },
+      "url": "https://saunasto.com/japan/from-p-hakuba/",
+      "website": "https://fromp-hakuba.jp/en/",
+      "description": "A glamping site combining a barrel sauna with dome tents (integrated stove systems) and outdoor structures for cooling and rest. Featured in CN Traveller's 'World's Most Beautiful Saunas'."
+    },
+    {
+      "rank": 53,
+      "name": "Löylykontti Laaksolahti",
+      "city": null,
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.2462904,
+        "lng": 24.749817
+      },
+      "url": "https://saunasto.com/finland/loylykontti-laaksolahti/",
+      "website": "https://www.loylykontti.fi/",
+      "description": null
+    },
+    {
+      "rank": 54,
+      "name": "SAUNA.SPB.RU",
+      "city": "Санкт-Петербург",
+      "country": {
+        "code": "RU",
+        "name": "Russia",
+        "flag": "🇷🇺"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 59.931905,
+        "lng": 30.349545
+      },
+      "url": "https://saunasto.com/russia/sauna-spb-ru/",
+      "website": "http://sauna.spb.ru",
+      "description": "На Sauna.spb.ru вы найдете лучший выбор бань и саун Санкт-Петербурга! Удобный поиск по районам, ценам и услугам. Реальные отзывы, актуальные контакты и фотографии. Арендуйте баню или сауну прямо сейчас — наслаждайтесь качественным отдыхом в СПб!"
+    },
+    {
+      "rank": 55,
+      "name": "Carolus Thermen Bad Aachen",
+      "city": "Aachen",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 50.7839331,
+        "lng": 6.0978014
+      },
+      "url": "https://saunasto.com/germany/carolus-thermen-bad-aachen/",
+      "website": "https://carolus-thermen.de/en/sauna-world/",
+      "description": "Carolus Thermen Bad Aachen - Thermalbad, Saunawelt, Spa und Kulinarik"
+    },
+    {
+      "rank": 56,
+      "name": "JIKON SAUNA TOKYO",
+      "city": "青梅市",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 35.779696,
+        "lng": 139.253436
+      },
+      "url": "https://saunasto.com/japan/jikon-sauna-tokyo/",
+      "website": null,
+      "description": "Saunachelin 2025 #2. The urban sauna of the future with five saunas, three water baths, and theatrical steam performances."
+    },
+    {
+      "rank": 57,
+      "name": "Löylymestari",
+      "city": "Rauma",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 61.13993,
+        "lng": 21.472208
+      },
+      "url": "https://saunasto.com/finland/loylymestari/",
+      "website": "http://www.merijakamo.fi/loylymestari",
+      "description": null
+    },
+    {
+      "rank": 58,
+      "name": "Chiemgau Thermen",
+      "city": "Bad Endorf",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.90101,
+        "lng": 12.2984138
+      },
+      "url": "https://saunasto.com/germany/chiemgau-thermen/",
+      "website": "https://www.chiemgau-thermen.de/",
+      "description": "Wohltuendes Thermalwasser, belebende Saunagänge, exzellente Wellness- und Kosmetikbehandlungen und genussvolle Gaumenfreuden."
+    },
+    {
+      "rank": 59,
+      "name": "SAUNA TOKYO AKASAKA",
+      "city": null,
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 35.6732737,
+        "lng": 139.7376429
+      },
+      "url": "https://saunasto.com/japan/sauna-tokyo-akasaka/",
+      "website": null,
+      "description": "Saunachelin 2025 #2. The urban sauna of the future with five saunas, three water baths, and theatrical steam performances."
+    },
+    {
+      "rank": 60,
+      "name": "Yrjönkadun Uimahalli",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1668,
+        "lng": 24.9352
+      },
+      "url": "https://saunasto.com/finland/yrjonkadun-uimahalli/",
+      "website": "https://www.hel.fi/en/culture-and-leisure/sports-and-outdoor-activities/swimming-halls",
+      "description": "Helsinki's oldest public swimming hall, 1928, with men's and women's saunas adjoining the central pool. The most architecturally significant public sauna in Finland."
+    },
+    {
+      "rank": 61,
+      "name": "Claudius-Therme",
+      "city": "Köln",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 50.9509582,
+        "lng": 6.9797341
+      },
+      "url": "https://saunasto.com/germany/claudius-therme/",
+      "website": "https://www.claudius-therme.de/",
+      "description": "Mitten im Kölner Rheinpark empfängt Sie mit Blick auf den Kölner Dom eines der schönsten Thermalbäder Europas: die Claudius Therme."
+    },
+    {
+      "rank": 62,
+      "name": "TOTOPA",
+      "city": null,
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 35.6747868,
+        "lng": 139.7134794
+      },
+      "url": "https://saunasto.com/japan/totopa/",
+      "website": "https://saunasensei.com/2025/02/07/totopa/",
+      "description": "Saunachelin 2025 #5. Tokyo's urban wellness escape in Meiji Park with multiple saunas and herbal infusion baths."
+    },
+    {
+      "rank": 63,
+      "name": "Allas Sea Pool",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1678,
+        "lng": 24.9563
+      },
+      "url": "https://saunasto.com/finland/allas-sea-pool/",
+      "website": "https://www.allaspool.fi/en/pools-and-saunas/",
+      "description": "Helsinki's iconic floating sea pool and sauna complex in the harbor with city views."
+    },
+    {
+      "rank": 64,
+      "name": "Mediterana GmbH & Co.KG",
+      "city": "Bergisch Gladbach",
+      "country": {
+        "code": "DE",
+        "name": "Germany",
+        "flag": "🇩🇪"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 50.9651762,
+        "lng": 7.135913
+      },
+      "url": "https://saunasto.com/germany/mediterana-gmbh-co-kg/",
+      "website": "https://www.mediterana.de/",
+      "description": "13 uniquely themed saunas, thermal pools, and Hamam rituals near Cologne."
+    },
+    {
+      "rank": 65,
+      "name": "Yufuin Onsen",
+      "city": "Yufu",
+      "country": {
+        "code": "JP",
+        "name": "Japan",
+        "flag": "🇯🇵"
+      },
+      "type": "onsen",
+      "heat": "wood-fired",
+      "access": "booking required",
+      "coordinates": {
+        "lat": 33.2664,
+        "lng": 131.3611
+      },
+      "url": "https://saunasto.com/japan/yufuin-onsen/",
+      "website": "https://www.yufuin.gr.jp/",
+      "description": "Hot-spring resort town under Mt. Yufu in northern Kyushu. Known for design-led ryokan, contemporary art galleries, and morning mist photographs."
+    },
+    {
+      "rank": 66,
+      "name": "Kotiharjun sauna",
+      "city": "Helsinki",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.1865108,
+        "lng": 24.9573407
+      },
+      "url": "https://saunasto.com/finland/kotiharjun-sauna/",
+      "website": "https://www.kotiharjunsauna.fi/",
+      "description": "Helsinki's last wood-heated public sauna, operating since 1928 in the Kallio district. A traditional Finnish sauna experience."
+    },
+    {
+      "rank": 67,
+      "name": "Rajaportin sauna",
+      "city": "Tampere",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 61.502109,
+        "lng": 23.7197484
+      },
+      "url": "https://saunasto.com/finland/rajaportin-sauna/",
+      "website": null,
+      "description": "Finland's oldest public sauna still in use, established in 1906 in Tampere."
+    },
+    {
+      "rank": 68,
+      "name": "Saunaravintola Kuuma",
+      "city": "Tampere",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "smoke",
+      "access": "public",
+      "coordinates": {
+        "lat": 61.494474,
+        "lng": 23.7605463
+      },
+      "url": "https://saunasto.com/finland/saunaravintola-kuuma/",
+      "website": "https://saunaravintolakuuma.fi/",
+      "description": "A popular sauna restaurant in Tampere combining traditional sauna with urban vibes on the lakefront."
+    },
+    {
+      "rank": 69,
+      "name": "Kaupinoja Sauna",
+      "city": "Tampere",
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 61.5152312,
+        "lng": 23.8044103902321
+      },
+      "url": "https://saunasto.com/finland/kaupinoja-sauna/",
+      "website": "https://talviuimarit.fi/kaupinojan-sauna-eng/",
+      "description": "The whole family can enjoy Kaupinoja sauna.\n\nKaupinoja sauna is practically open all the time, except on the second Tuesday of every month, when maintenance is carried out there. In our large sauna you will get quality steam, after which it is nice to take a dip in the refreshing lake water.\n\nYou can swim in Lake Näsijärvi both in summer and in winter. From the sauna, a path and stairs lead directly to the lake, so the passage is smooth.\n\nWelcome to the hot steam!"
+    },
+    {
+      "rank": 70,
+      "name": "uusi sauna SAFA",
+      "city": null,
+      "country": {
+        "code": "FI",
+        "name": "Finland",
+        "flag": "🇫🇮"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 60.51552996400803,
+        "lng": 24.68841098279201
+      },
+      "url": "https://saunasto.com/finland/uusi-sauna-safa/",
+      "website": "https://uusisauna.fi/",
+      "description": null
+    },
+    {
+      "rank": 71,
+      "name": "Mermaid Spa",
+      "city": "Brooklyn",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 40.5750252,
+        "lng": -74.0031807
+      },
+      "url": "https://saunasto.com/united-states/mermaid-spa/",
+      "website": "https://mermaidspa.us/",
+      "description": "An authentic Russian banya in Coney Island, Brooklyn. Wood-fired sauna with traditional platza oak leaf treatments, cold plunge pools, and a full Russian spa experience. A New York City institution for banya culture."
+    },
+    {
+      "rank": 72,
+      "name": "Othership",
+      "city": "Brooklyn",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 40.723122,
+        "lng": -73.958092
+      },
+      "url": "https://saunasto.com/united-states/othership/",
+      "website": "https://www.othership.us/",
+      "description": "Shop Book A Class Buy a pass GET 22% OFF X Give 22%, Get 22% Refer a first-timer friend and you’ll both receive 22% off a single drop-in. Your code unlocks after their visit. Activate Othertips Copy to share anywhere https://othertips.perkville.com/referral/109372701/ Copy Copied to clipboard SEND THE OFFER BY EMAIL Your invitation is on its way."
+    },
+    {
+      "rank": 73,
+      "name": "Banya 5",
+      "city": "Seattle",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.6203,
+        "lng": -122.34
+      },
+      "url": "https://saunasto.com/united-states/banya-5/",
+      "website": "https://www.banya5.com/",
+      "description": "Seattle's authentic Russian banya offering hydrotherapy, steam rooms, and traditional venik platza treatments. A beloved institution for the Pacific Northwest sauna community."
+    },
+    {
+      "rank": 74,
+      "name": "Cedar + Stone Nordic Sauna",
+      "city": "Duluth",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "bathhouse",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 46.78372,
+        "lng": -92.093563
+      },
+      "url": "https://saunasto.com/united-states/cedar-stone-nordic-sauna/",
+      "website": "https://cedarandstonesauna.com",
+      "description": "Discover how sauna and cold plunge offer relief from the stress of modern life, and what bringing sauna home could look like for you."
+    },
+    {
+      "rank": 75,
+      "name": "Ebb & Ember",
+      "city": "Portland",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 45.6048,
+        "lng": -122.675
+      },
+      "url": "https://saunasto.com/united-states/ebb-ember/",
+      "website": "https://www.ebbandember.com/",
+      "description": "A floating wood-fired sauna on the Columbia River in Portland. Contrast therapy with river plunge and Pacific Northwest forest views."
+    },
+    {
+      "rank": 76,
+      "name": "Fjord Sauna",
+      "city": "Sausalito",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 37.859,
+        "lng": -122.4852
+      },
+      "url": "https://saunasto.com/united-states/fjord-sauna/",
+      "website": "https://www.thisisfjord.com/",
+      "description": "A floating Nordic sauna experience on San Francisco Bay in Sausalito. Wood-fired sauna on the water with cold plunge into the Bay and stunning Golden Gate views."
+    },
+    {
+      "rank": 77,
+      "name": "Loyly Nordic Spa",
+      "city": "Salt Lake City",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 40.762,
+        "lng": -111.895
+      },
+      "url": "https://saunasto.com/united-states/loyly-nordic-spa/",
+      "website": "https://www.loylynordicspa.com/",
+      "description": "The largest authentic Finnish sauna in the United States, located in Salt Lake City. Traditional löyly, cold plunge, and Nordic bathing rituals in a purpose-built facility."
+    },
+    {
+      "rank": 78,
+      "name": "Red Square Chicago Bath House",
+      "city": "Chicago",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 41.9031,
+        "lng": -87.6749
+      },
+      "url": "https://saunasto.com/united-states/red-square-chicago-bath-house/",
+      "website": "https://redsquarechicago.com/",
+      "description": "Chicago's authentic Russian banya and restaurant in Wicker Park. Traditional steam sauna, cold plunge, and Russian cuisine. A neighborhood institution for banya culture."
+    },
+    {
+      "rank": 79,
+      "name": "Russian Banya of Dallas",
+      "city": "Carrollton",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 32.9799,
+        "lng": -96.8905
+      },
+      "url": "https://saunasto.com/united-states/russian-banya-of-dallas/",
+      "website": "https://dallasbanya.com/",
+      "description": "An authentic Russian banya in the Dallas-Fort Worth area. Features a 220°F steam room, traditional venik treatments, cold plunge, and a full Russian restaurant. Texas's premier banya experience."
+    },
+    {
+      "rank": 80,
+      "name": "The Dome Sauna",
+      "city": "Ko Pha Ngan",
+      "country": {
+        "code": "TH",
+        "name": "Thailand",
+        "flag": "🇹🇭"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 9.7894966,
+        "lng": 99.9862119
+      },
+      "url": "https://saunasto.com/thailand/the-dome-sauna/",
+      "website": "https://phanganlife.com/catalog/health-wellness/saunas-baths/the-dome-sauna/",
+      "description": "A distinctive dome-shaped steam sauna on Ko Pha Ngan. Unique architectural design housing an authentic steam room experience on Thailand's wellness island."
+    },
+    {
+      "rank": 81,
+      "name": "Wild Haus",
+      "city": "Seattle",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 47.635,
+        "lng": -122.337
+      },
+      "url": "https://saunasto.com/united-states/wild-haus/",
+      "website": "https://thewildhaus.com/",
+      "description": "A floating wood-fired sauna boat on Seattle's Lake Union. Authentic Finnish löyly on the water with cold plunge into the lake. One of the most unique sauna experiences in the US."
+    },
+    {
+      "rank": 82,
+      "name": "Othership Flatiron",
+      "city": "New York",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 40.740444,
+        "lng": -73.9924921
+      },
+      "url": "https://saunasto.com/united-states/othership-flatiron/",
+      "website": "https://www.othership.us/flatiron",
+      "description": "9,550 sq ft breathwork and sauna experience in Manhattan's Flatiron District. Performance sauna and ice baths."
+    },
+    {
+      "rank": 83,
+      "name": "Wi Spa",
+      "city": "Los Angeles",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 34.0594,
+        "lng": -118.2773
+      },
+      "url": "https://saunasto.com/united-states/wi-spa/",
+      "website": "https://wispausa.com/",
+      "description": "24-hour Korean-style jjimjilbang in LA with hot and cold baths, progressive sauna rooms, and rooftop terrace."
+    },
+    {
+      "rank": 84,
+      "name": "Archimedes Banya",
+      "city": "San Francisco",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "steam",
+      "access": "public",
+      "coordinates": {
+        "lat": 37.7305543,
+        "lng": -122.3727303
+      },
+      "url": "https://saunasto.com/united-states/archimedes-banya/",
+      "website": "https://banyasf.com/",
+      "description": "Archimedes Banya is a Russian bathhouse on the shores of the San Francisco Bay. It is a place to meet with old friends, make new ones, or have a quiet time just to refresh and energize yourself."
+    },
+    {
+      "rank": 85,
+      "name": "612 Sauna Society",
+      "city": "Minneapolis",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 44.95535551670623,
+        "lng": -93.25016086130391
+      },
+      "url": "https://saunasto.com/united-states/612-sauna-society/",
+      "website": "https://612saunasociety.com/",
+      "description": "612 Sauna Cooperative provides welcoming sauna experiences in Minneapolis and the greater Twin Cities. Originally 612 Sauna Society, we"
+    },
+    {
+      "rank": 86,
+      "name": "Amber Sauna Palanga",
+      "city": "Palanga",
+      "country": {
+        "code": "LT",
+        "name": "Lithuania",
+        "flag": "🇱🇹"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 55.885,
+        "lng": 21.122
+      },
+      "url": "https://saunasto.com/lithuania/amber-sauna-palanga/",
+      "website": "https://atostoguparkaspalanga.lt-hotels.com/",
+      "description": "World's first amber sauna built with three tonnes of Baltic amber. Treatments incorporate amber oil, powder, and stones."
+    },
+    {
+      "rank": 87,
+      "name": "Banya",
+      "city": "Portsmouth",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 43.067734,
+        "lng": -70.7766
+      },
+      "url": "https://saunasto.com/united-states/banya/",
+      "website": "https://letsbanya.com/",
+      "description": "A traditional bathhouse in Portsmouth, US. Features a steam bath."
+    },
+    {
+      "rank": 88,
+      "name": "Banya Athens Thissio",
+      "city": "Athens",
+      "country": {
+        "code": "GR",
+        "name": "Greece",
+        "flag": "🇬🇷"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 37.9782,
+        "lng": 23.7206
+      },
+      "url": "https://saunasto.com/greece/banya-athens-thissio/",
+      "website": "https://www.banya.gr/",
+      "description": "Athens premier sauna and wellness destination. Features an electric sauna with powerful loyly and ice bath for contrast therapy. Open daily from 10am, serving the Greek capitals growing sauna community."
+    },
+    {
+      "rank": 89,
+      "name": "Banya No. 2 Richmond Hill",
+      "city": "Richmond Hill",
+      "country": {
+        "code": "CA",
+        "name": "Canada",
+        "flag": "🇨🇦"
+      },
+      "type": "bathhouse",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 43.94728201272404,
+        "lng": -79.4558737604588
+      },
+      "url": "https://saunasto.com/canada/banya-no-2-richmond-hill/",
+      "website": "https://banyarichmondhill.ca",
+      "description": "Admission includes unlimited time until we close, unlimited self-serve teas, 3 towels, and 1 robe to use for your visit. Feel free to bring your own towels and robe if needed. Restaurant, bar, and any treatments, robes and towels are at an additional cost. We work on a first-come, first-serve basis."
+    },
+    {
+      "rank": 90,
+      "name": "Bathhouse Williamsburg",
+      "city": "Brooklyn",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "🇺🇸"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 40.7205182,
+        "lng": -73.9574036
+      },
+      "url": "https://saunasto.com/united-states/bathhouse-williamsburg/",
+      "website": "https://www.brooklynbathhouse.nyc/",
+      "description": "Discover thermal pools, cold plunge, saunas, &amp; steam rooms. Indulge in a massage, a body scrub, or facial. Yoga classes and special peerformances and events occur weekly. Enjoy the perfect Spa Day at Brooklyn Bathhouse."
+    },
+    {
+      "rank": 91,
+      "name": "Druskininkai Sauna Complex",
+      "city": "Druskininkai",
+      "country": {
+        "code": "LT",
+        "name": "Lithuania",
+        "flag": "🇱🇹"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 54.018,
+        "lng": 23.972
+      },
+      "url": "https://saunasto.com/lithuania/druskininkai-sauna-complex/",
+      "website": "https://www.akvapark.lt/",
+      "description": "Over 19 themed saunas including herbal, salt, and infrared variants as part of Lithuania's most famous spa town."
+    },
+    {
+      "rank": 92,
+      "name": "HAVN Saunas",
+      "city": "Victoria",
+      "country": {
+        "code": "CA",
+        "name": "Canada",
+        "flag": "🇨🇦"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "booking required",
+      "coordinates": {
+        "lat": 48.4232,
+        "lng": -123.3691
+      },
+      "url": "https://saunasto.com/canada/havn-saunas/",
+      "website": "https://www.havnsaunas.com",
+      "description": "Floating sauna barge at Ship Point in Victoria's Inner Harbour, founded by Nick Van Buren and Kurtis Vallee — successor to the iconic Steam Mystic sailboat sauna featured in CN Traveller's 'World's Most Beautiful Saunas'."
+    },
+    {
+      "rank": 93,
+      "name": "Junggok-dong Siloam Sauna",
+      "city": "Seoul",
+      "country": {
+        "code": "KR",
+        "name": "South Korea",
+        "flag": "🇰🇷"
+      },
+      "type": "sauna",
+      "heat": "electric",
+      "access": "public",
+      "coordinates": {
+        "lat": 37.5633,
+        "lng": 127.087
+      },
+      "url": "https://saunasto.com/south-korea/junggok-dong-siloam-sauna/",
+      "website": "https://grrrltraveler.com/siloam-spa/",
+      "description": "One of Seoul's most famous 24-hour jjimjilbangs. Traditional Korean bathhouse experience."
+    },
+    {
+      "rank": 94,
+      "name": "Meza SPA",
+      "city": "Jurkalne",
+      "country": {
+        "code": "LV",
+        "name": "Latvia",
+        "flag": "🇱🇻"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 56.841,
+        "lng": 21.356
+      },
+      "url": "https://saunasto.com/latvia/meza-spa/",
+      "website": "https://www.mezaspa.lv/",
+      "description": "Rustic log cabin pirts in a forest clearing on the Kurzeme coastline, 30 minutes from dramatic Baltic sea cliffs."
+    },
+    {
+      "rank": 95,
+      "name": "Nimmo Bay Floating Sauna",
+      "city": "Nimmo Bay",
+      "country": {
+        "code": "CA",
+        "name": "Canada",
+        "flag": "🇨🇦"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 50.8333,
+        "lng": -126.65
+      },
+      "url": "https://saunasto.com/canada/nimmo-bay-floating-sauna/",
+      "website": "https://nimmobay.com",
+      "description": "Positioned just above the tidal reach in BC's Great Bear Rainforest, the Nimmo Bay Floating Sauna is a wood-centred retreat at one of Canada's premier wilderness resorts. Featured in CN Traveller's 'World's Most Beautiful Saunas'."
+    },
+    {
+      "rank": 96,
+      "name": "Perkunijos Pirtis",
+      "city": "Kaunas",
+      "country": {
+        "code": "LT",
+        "name": "Lithuania",
+        "flag": "🇱🇹"
+      },
+      "type": "sauna",
+      "heat": "smoke",
+      "access": "public",
+      "coordinates": {
+        "lat": 54.886,
+        "lng": 23.961
+      },
+      "url": "https://saunasto.com/lithuania/perkunijos-pirtis/",
+      "website": "https://www.perkunijoserdve.lt/",
+      "description": "Kaunas's most celebrated sauna with a large pirtis and a traditional smoke sauna. Professional sauna masters lead Lithuanian pirtis sessions."
+    },
+    {
+      "rank": 97,
+      "name": "Pilaites Maluno Pirtys",
+      "city": "Vilnius",
+      "country": {
+        "code": "LT",
+        "name": "Lithuania",
+        "flag": "🇱🇹"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 54.717,
+        "lng": 25.187
+      },
+      "url": "https://saunasto.com/lithuania/pilaites-maluno-pirtys/",
+      "website": "https://pilaitesmalunopirtys.lt/",
+      "description": "Three traditional bathhouses along the Sudervele stream near a restored 1923 windmill. Surrounded by forest, pond, and river."
+    },
+    {
+      "rank": 98,
+      "name": "Pirts Rozeni",
+      "city": "Skulte",
+      "country": {
+        "code": "LV",
+        "name": "Latvia",
+        "flag": "🇱🇻"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 57.281,
+        "lng": 24.354
+      },
+      "url": "https://saunasto.com/latvia/pirts-rozeni/",
+      "website": "https://rozeni.lv/",
+      "description": "Traditional rural pirts on the Vidzeme coastline led by certified pirts master with 22+ years experience. Rituals with besoms, honey, and clay."
+    },
+    {
+      "rank": 99,
+      "name": "Pirts Skola Lielzemenes",
+      "city": "Vecumnieki",
+      "country": {
+        "code": "LV",
+        "name": "Latvia",
+        "flag": "🇱🇻"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 56.606,
+        "lng": 24.283
+      },
+      "url": "https://saunasto.com/latvia/pirts-skola-lielzemenes/",
+      "website": "https://www.lielzemenes.lv/",
+      "description": "Latvia's pirts school where visitors learn to become a professional pirtnieks or enjoy a deeply traditional bathing experience."
+    },
+    {
+      "rank": 100,
+      "name": "Riga Floating Sauna",
+      "city": "Riga",
+      "country": {
+        "code": "LV",
+        "name": "Latvia",
+        "flag": "🇱🇻"
+      },
+      "type": "sauna",
+      "heat": "wood-fired",
+      "access": "public",
+      "coordinates": {
+        "lat": 56.958,
+        "lng": 24.097
+      },
+      "url": "https://saunasto.com/latvia/riga-floating-sauna/",
+      "website": "https://www.saunariga.lv/",
+      "description": "Floating sauna on the Daugava River with panoramic Riga skyline views. Essential oils, birch whisks, and river plunge."
+    }
+  ]
+}
