@@ -67,7 +67,12 @@
     <h1>Pick <em>10 saunas</em>.</h1>
     <p class="lead">Your ten picks feed the Wilson-score component of the next Saunasto 100 edition. Pick the ten venues you'd actually send a friend to, regardless of where they are or how famous they are. You can change your picks any time before the quarter closes.</p>
     <div id="auth-banner" style="display:none;margin-top:24px;padding:18px;background:var(--paper-warm);border:1px solid var(--rule);">
-      <strong>Sign in to vote.</strong> Voting is gated to authenticated members. <a href="/login/" style="color:var(--accent);">Create an account →</a>
+      <strong>Sign in to vote.</strong> Voting is gated to authenticated members.
+      <a href="/login/?next=%2Fvote%2F" class="open-app" style="display:inline-block;margin-top:10px;text-decoration:none;">Sign in →</a>
+    </div>
+    <div id="auth-status-row" style="display:none;margin-top:18px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.10em;text-transform:uppercase;color:var(--muted);">
+      Signed in as <span id="vote-user-email" style="color:var(--ink);">…</span> ·
+      <a href="#" id="btn-vote-signout" style="color:var(--accent);">Sign out</a>
     </div>
   </div>
   <div class="hero-stats">
@@ -1666,11 +1671,21 @@
   const QUARTER_KEY  = '2026-Q2';
   const MAX_VOTES    = 10;
 
-  const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
-  const banner   = document.getElementById('auth-banner');
-  const status   = document.getElementById('vote-status');
-  const counter  = document.getElementById('my-vote-count');
-  const grid     = document.getElementById('vote-grid');
+  const sb = createClient(SUPABASE_URL, SUPABASE_KEY, {
+    auth: {
+      flowType: 'implicit',
+      detectSessionInUrl: true,
+      persistSession: true,
+      autoRefreshToken: true,
+      storage: window.localStorage,
+    }
+  });
+  const banner    = document.getElementById('auth-banner');
+  const statusRow = document.getElementById('auth-status-row');
+  const userEmail = document.getElementById('vote-user-email');
+  const status    = document.getElementById('vote-status');
+  const counter   = document.getElementById('my-vote-count');
+  const grid      = document.getElementById('vote-grid');
 
   let myVotes = new Map();   // venue_id → vote.id
   let user    = null;
@@ -1679,13 +1694,17 @@
     const { data: { user: u } } = await sb.auth.getUser();
     user = u;
     if (!user) {
-      banner.style.display = 'block';
-      status.textContent   = 'Not signed in';
-      counter.textContent  = '—';
+      banner.style.display    = 'block';
+      statusRow.style.display = 'none';
+      status.textContent      = 'Not signed in';
+      counter.textContent     = '—';
+      document.querySelectorAll('.vote-card').forEach(b => b.disabled = true);
       return;
     }
-    banner.style.display = 'none';
-    status.textContent   = 'Signed in';
+    banner.style.display    = 'none';
+    statusRow.style.display = 'block';
+    userEmail.textContent   = user.email || user.id;
+    status.textContent      = 'Signed in';
     document.querySelectorAll('.vote-card').forEach(b => b.disabled = false);
 
     const { data: votes, error } = await sb
@@ -1712,7 +1731,7 @@
   }
 
   async function toggle(card) {
-    if (!user) { window.location.href = '/login/'; return; }
+    if (!user) { window.location.href = '/login/?next=%2Fvote%2F'; return; }
     const id   = card.dataset.venueId;
     const name = card.dataset.venueName;
     if (myVotes.has(id)) {
@@ -1742,8 +1761,16 @@
     if (card) { toggle(card); }
   });
 
-  sb.auth.onAuthStateChange(() => init());
+  sb.auth.onAuthStateChange((_event, _session) => init());
   init();
+
+  // Sign-out handler in the status row.
+  document.addEventListener('click', async (e) => {
+    if (e.target && e.target.id === 'btn-vote-signout') {
+      e.preventDefault();
+      await sb.auth.signOut();
+    }
+  });
 </script>
 
 <footer>

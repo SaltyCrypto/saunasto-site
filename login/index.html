@@ -94,7 +94,26 @@
 
   const SUPABASE_URL  = 'https://wzpggmytlbhgzxyjvidr.supabase.co';
   const SUPABASE_KEY  = 'sb_publishable__2urAIi6bnrK4MrmfXR_nA_QBzN-L4d';
-  const sb = createClient(SUPABASE_URL, SUPABASE_KEY);
+  // Implicit flow: token goes in the URL fragment, not a PKCE code.
+  // Works cross-device (open the email on a phone after typing on
+  // a laptop) and survives static-site navigation.
+  const sb = createClient(SUPABASE_URL, SUPABASE_KEY, {
+    auth: {
+      flowType: 'implicit',
+      detectSessionInUrl: true,
+      persistSession: true,
+      autoRefreshToken: true,
+      storage: window.localStorage,
+    }
+  });
+
+  // Where to land after a successful sign-in. Default /vote/. Can be
+  // overridden with ?next=/some/path on the /login/ URL.
+  const NEXT = (() => {
+    const qs = new URLSearchParams(window.location.search);
+    const n  = qs.get('next');
+    return (n && n.startsWith('/')) ? n : '/vote/';
+  })();
 
   const loadingEl = document.getElementById('auth-state-loading');
   const anonEl    = document.getElementById('auth-anon');
@@ -109,6 +128,16 @@
       anonEl.style.display = 'none';
       inEl.style.display   = 'block';
       emailEl.textContent  = user.email || user.id;
+      // Auto-forward to the intended destination, but only if there
+      // was an explicit ?next= or the user just signed in from the
+      // URL fragment (#access_token in window.location.hash).
+      const arrivedFromMagicLink = window.location.hash.includes('access_token');
+      const hasExplicitNext = new URLSearchParams(window.location.search).has('next');
+      if (arrivedFromMagicLink || hasExplicitNext) {
+        // Clean the URL of the access_token fragment before redirect
+        history.replaceState(null, '', window.location.pathname);
+        setTimeout(() => { window.location.href = NEXT; }, 400);
+      }
     } else {
       anonEl.style.display = 'block';
       inEl.style.display   = 'none';
@@ -125,11 +154,11 @@
     statusEl.textContent = 'Sending…';
     const { error } = await sb.auth.signInWithOtp({
       email,
-      options: { emailRedirectTo: window.location.origin + '/login/' }
+      options: { emailRedirectTo: window.location.origin + '/login/?next=' + encodeURIComponent(NEXT) }
     });
     statusEl.textContent = error
       ? 'Error: ' + error.message
-      : 'Link sent. Check your inbox.';
+      : 'Link sent. Check your inbox. Open it on this same browser if possible.';
   });
 
   document.getElementById('btn-signout').addEventListener('click', async () => {
