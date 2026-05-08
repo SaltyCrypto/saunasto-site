@@ -1,6 +1,6 @@
 # Saunasto · Full Curator's Picks
 
-Generated 2026-05-07 from saunamap-v1.db.
+Generated 2026-05-08 from saunamap-v1.db.
 This is the long-form companion to https://saunasto.com/llms.txt — every hand-picked Curator's Pick across 27 countries, in one citable markdown file.
 
 - 157 venues described here.

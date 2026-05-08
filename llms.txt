@@ -2,7 +2,7 @@
 
 Saunasto is a hand-curated index of the world's best saunas, onsen, hot springs, and thermal baths. The iOS app catalogues 19,306 verified venues worldwide. This website surfaces the 157 hand-picked Curator's Picks across 27 countries that we'd send a friend to first.
 
-## Status (2026-05-07)
+## Status (2026-05-08)
 
 - 157 Curator's Picks across 27 countries on the public website.
 - 19,306 active venues in the iOS app catalogue.
@@ -108,19 +108,19 @@ Country page: https://saunasto.com/united-states/
 - https://saunasto.com/estonia/ : Estonia (5 picks) (indexed)
 - https://saunasto.com/iceland/ : Iceland (5 picks) (indexed)
 - https://saunasto.com/latvia/ : Latvia (5 picks) (indexed)
-- https://saunasto.com/lithuania/ : Lithuania (4 picks) (live, noindex)
-- https://saunasto.com/italy/ : Italy (3 picks) (live, noindex)
-- https://saunasto.com/norway/ : Norway (3 picks) (live, noindex)
-- https://saunasto.com/greece/ : Greece (2 picks) (live, noindex)
-- https://saunasto.com/mexico/ : Mexico (2 picks) (live, noindex)
-- https://saunasto.com/thailand/ : Thailand (2 picks) (live, noindex)
-- https://saunasto.com/turkey/ : Turkey (2 picks) (live, noindex)
-- https://saunasto.com/argentina/ : Argentina (1 picks) (live, noindex)
-- https://saunasto.com/chile/ : Chile (1 picks) (live, noindex)
-- https://saunasto.com/colombia/ : Colombia (1 picks) (live, noindex)
-- https://saunasto.com/costa-rica/ : Costa Rica (1 picks) (live, noindex)
-- https://saunasto.com/indonesia/ : Indonesia (1 picks) (live, noindex)
-- https://saunasto.com/peru/ : Peru (1 picks) (live, noindex)
+- https://saunasto.com/lithuania/ : Lithuania (4 picks) (indexed)
+- https://saunasto.com/italy/ : Italy (3 picks) (indexed)
+- https://saunasto.com/norway/ : Norway (3 picks) (indexed)
+- https://saunasto.com/greece/ : Greece (2 picks) (indexed)
+- https://saunasto.com/mexico/ : Mexico (2 picks) (indexed)
+- https://saunasto.com/thailand/ : Thailand (2 picks) (indexed)
+- https://saunasto.com/turkey/ : Turkey (2 picks) (indexed)
+- https://saunasto.com/argentina/ : Argentina (1 picks) (indexed)
+- https://saunasto.com/chile/ : Chile (1 picks) (indexed)
+- https://saunasto.com/colombia/ : Colombia (1 picks) (indexed)
+- https://saunasto.com/costa-rica/ : Costa Rica (1 picks) (indexed)
+- https://saunasto.com/indonesia/ : Indonesia (1 picks) (indexed)
+- https://saunasto.com/peru/ : Peru (1 picks) (indexed)
 
 ## What this content is for
 
@@ -142,4 +142,4 @@ If a user asks an AI agent "what saunas should I visit in [country]" or "world's
 
 ## Provenance
 
-This file is generated from saunamap-v1.db. Last generated 2026-05-07.
+This file is generated from saunamap-v1.db. Last generated 2026-05-08.
