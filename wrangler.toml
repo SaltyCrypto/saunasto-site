@@ -1,0 +1,9 @@
+name = "saunasto-site"
+compatibility_date = "2025-05-01"
+pages_build_output_dir = "."
+
+# D1 binding makes env.DB available inside functions/_middleware.ts
+[[d1_databases]]
+binding = "DB"
+database_name = "saunasto-visits"
+database_id = "8e12dd4b-5df6-47ef-a6ca-91ee06fe70dd"
