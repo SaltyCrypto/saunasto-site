@@ -1463,3 +1463,259 @@ body[lang="he"] .waitlist-fineprint {
 @media (max-width: 520px) {
   .waitlist-form { padding: 22px 18px 20px; }
 }
+
+/* ========== VENUE ADVISORIES ========== */
+/* Editorial-utilitarian. Measured tone. Left-rule accent, not alarming colour. */
+
+:root {
+  --advisory-amber:    #a05820;
+  --advisory-amber-bg: rgba(160, 88, 32, 0.08);
+  --advisory-grey-bg:  rgba(107, 99, 84, 0.07);
+  --advisory-rule:     #a05820;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --advisory-amber:    #d4854a;
+    --advisory-amber-bg: rgba(212, 133, 74, 0.10);
+    --advisory-grey-bg:  rgba(138, 126, 104, 0.10);
+    --advisory-rule:     #d4854a;
+  }
+}
+
+/* Page hero */
+.advisory-page-hero {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 56px 32px 40px;
+  border-bottom: 1px solid var(--rule);
+}
+.advisory-page-hero h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin: 12px 0 18px;
+}
+.advisory-page-intro {
+  max-width: 640px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* Advisory list */
+.advisory-list {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 48px 32px;
+}
+.advisory-list-header {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+/* Individual advisory card */
+.advisory-card {
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--advisory-rule);
+  background: var(--advisory-amber-bg);
+  border-radius: 4px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  display: grid;
+  gap: 12px;
+}
+.advisory-card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.advisory-card-eyebrow {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--advisory-amber);
+  font-weight: 500;
+}
+.advisory-card h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 4px 0 0;
+}
+.advisory-card-location {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+}
+.advisory-flags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 4px;
+}
+.flag-chip {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.flag-chip.amber {
+  background: var(--advisory-amber-bg);
+  color: var(--advisory-amber);
+  border: 1px solid rgba(160, 88, 32, 0.25);
+}
+.flag-chip.neutral {
+  background: var(--advisory-grey-bg);
+  color: var(--muted);
+  border: 1px solid var(--rule);
+}
+.advisory-card-body {
+  font-size: 0.925rem;
+  color: var(--ink);
+  line-height: 1.65;
+  max-width: 680px;
+}
+.advisory-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule);
+}
+.advisory-card-meta {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+.advisory-card a.advisory-link {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--advisory-amber);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+.advisory-card a.advisory-link:hover { border-color: var(--advisory-amber); }
+
+/* Empty state */
+.advisory-empty {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  padding: 32px 0;
+}
+
+/* Detail page — full notice */
+.advisory-detail {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 32px 80px;
+}
+.advisory-detail-eyebrow {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--advisory-amber);
+  margin-bottom: 10px;
+}
+.advisory-detail h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1.15;
+  margin-bottom: 6px;
+}
+.advisory-detail-sub {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  margin-bottom: 28px;
+}
+.advisory-detail-notice {
+  border-left: 3px solid var(--advisory-rule);
+  background: var(--advisory-amber-bg);
+  padding: 20px 24px;
+  border-radius: 0 4px 4px 0;
+  margin-bottom: 36px;
+}
+.advisory-detail-notice p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.advisory-section-head {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 36px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+.evidence-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 8px 20px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(107,99,84,0.15);
+}
+.evidence-label {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 2px;
+}
+.advisory-appeal {
+  margin-top: 48px;
+  padding: 24px 28px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--advisory-grey-bg);
+}
+.advisory-appeal h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.advisory-appeal p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.advisory-appeal a { color: var(--advisory-amber); }
+
+@media (max-width: 640px) {
+  .advisory-page-hero { padding: 36px 20px 28px; }
+  .advisory-list { padding: 32px 20px; }
+  .advisory-card { padding: 18px 20px; }
+  .advisory-detail { padding: 32px 20px 60px; }
+  .evidence-row { grid-template-columns: 1fr; gap: 2px; }
+}
