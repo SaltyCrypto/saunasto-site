@@ -1627,9 +1627,9 @@ body[lang="he"] .waitlist-fineprint {
 
 /* Detail page — full notice */
 .advisory-detail {
-  max-width: 720px;
+  max-width: 740px;
   margin: 0 auto;
-  padding: 48px 32px 80px;
+  padding: 56px 32px 96px;
 }
 .advisory-detail-eyebrow {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
@@ -1637,32 +1637,49 @@ body[lang="he"] .waitlist-fineprint {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--advisory-amber);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .advisory-detail h1 {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-size: clamp(1.9rem, 3.5vw, 2.6rem);
   font-weight: 500;
   line-height: 1.15;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 .advisory-detail-sub {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
   font-size: 12px;
   color: var(--muted);
   letter-spacing: 0.04em;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
+/* Appeal shortcut shown near flags */
+.advisory-appeal-shortcut {
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+.advisory-appeal-shortcut a {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--muted);
+  padding-bottom: 1px;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+.advisory-appeal-shortcut a:hover { opacity: 1; }
 .advisory-detail-notice {
   border-left: 3px solid var(--advisory-rule);
   background: var(--advisory-amber-bg);
-  padding: 20px 24px;
-  border-radius: 0 4px 4px 0;
-  margin-bottom: 36px;
+  padding: 24px 28px;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 40px;
 }
 .advisory-detail-notice p {
-  font-size: 0.95rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.75;
 }
 .advisory-section-head {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
@@ -1670,45 +1687,46 @@ body[lang="he"] .waitlist-fineprint {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: 36px 0 14px;
-  padding-bottom: 8px;
+  margin: 44px 0 16px;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--rule);
 }
 .evidence-row {
   display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 8px 20px;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(107,99,84,0.15);
+  grid-template-columns: 160px 1fr;
+  gap: 12px 28px;
+  font-size: 0.93rem;
+  line-height: 1.65;
+  margin-bottom: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(107,99,84,0.12);
 }
 .evidence-label {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 10px;
+  font-size: 10.5px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
-  padding-top: 2px;
+  padding-top: 1px;
 }
 .advisory-appeal {
-  margin-top: 48px;
-  padding: 24px 28px;
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  background: var(--advisory-grey-bg);
+  margin-top: 56px;
+  padding: 28px 32px;
+  border: 1px solid var(--advisory-rule);
+  border-radius: 6px;
+  background: var(--advisory-amber-bg);
 }
 .advisory-appeal h3 {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  color: var(--advisory-amber);
 }
 .advisory-appeal p {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   color: var(--muted);
-  line-height: 1.65;
+  line-height: 1.7;
 }
 .advisory-appeal a { color: var(--advisory-amber); }
 

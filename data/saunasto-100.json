@@ -1,7 +1,7 @@
 {
   "name": "The Saunasto 100",
   "edition": "Inaugural · Spring 2026",
-  "generated": "2026-05-08",
+  "generated": "2026-06-02",
   "url": "https://saunasto.com/the-100/",
   "license": "Editorial selection © Saunasto. Venue facts are public-domain.",
   "publisher": {
@@ -1072,23 +1072,23 @@
     },
     {
       "rank": 54,
-      "name": "SAUNA.SPB.RU",
-      "city": "Санкт-Петербург",
+      "name": "Dyröns Bastu",
+      "city": "Dyrön, Tjörn",
       "country": {
-        "code": "RU",
-        "name": "Russia",
-        "flag": "🇷🇺"
+        "code": "SE",
+        "name": "Sweden",
+        "flag": "🇸🇪"
       },
       "type": "sauna",
-      "heat": "electric",
-      "access": "public",
+      "heat": "wood-fired",
+      "access": "booking required",
       "coordinates": {
-        "lat": 59.931905,
-        "lng": 30.349545
+        "lat": 57.92,
+        "lng": 11.61
       },
-      "url": "https://saunasto.com/russia/sauna-spb-ru/",
-      "website": "http://sauna.spb.ru",
-      "description": "На Sauna.spb.ru вы найдете лучший выбор бань и саун Санкт-Петербурга! Удобный поиск по районам, ценам и услугам. Реальные отзывы, актуальные контакты и фотографии. Арендуйте баню или сауну прямо сейчас — наслаждайтесь качественным отдыхом в СПб!"
+      "url": "https://saunasto.com/sweden/dyrons-bastu/",
+      "website": "https://www.dyron.se/en/book-the-sauna/",
+      "description": "Wood-fired sauna at the southern tip of the car-free island of Dyrön in the Bohuslän archipelago. Ten metres from the sea, views over Marstrand and Hake fjords, accessible by ferry from Tjörn. Twelve-person capacity. Ranked best west coast sauna in Sweden by Sauna Ice 2025."
     },
     {
       "rank": 55,
